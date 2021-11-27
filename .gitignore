@@ -1,4 +1,6 @@
-node_modules
-balenaEtcher
-nps
-rats-search
+node_modules/
+.vs/
+balenaEtcher/
+nps/
+rats-search/
+RegistryWorkshop/undo
