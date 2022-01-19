@@ -1,0 +1,30 @@
+{
+  "catalogs_to_be_synced": {
+    "__class__": "set",
+    "__value__": []
+  },
+  "library_delete_books_again": false,
+  "notified-version-updates": {
+    "__class__": "set",
+    "__value__": [
+      "5.34"
+    ]
+  },
+  "recursive book import root dir dialog": "D:\\Users\\Admin\\Pictures\\漫画\\エロスの種子",
+  "sort_history": [
+    [
+      "timestamp",
+      false
+    ],
+    [
+      "timestamp",
+      false
+    ],
+    [
+      "timestamp",
+      false
+    ]
+  ],
+  "welcome_wizard_device": "kindle_pw",
+  "welcome_wizard_was_run": true
+}
