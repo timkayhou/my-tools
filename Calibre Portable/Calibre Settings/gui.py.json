@@ -45,7 +45,10 @@
   ],
   "jobs_search_history": [],
   "lrf_viewer_search_history": [],
-  "main_search_history": [],
+  "main_search_history": [
+    "姐姐",
+    "姊"
+  ],
   "main_window_geometry": {
     "__class__": "bytearray",
     "__value__": "AdnQywADAAD/////////+gAABQAAAALQAAAABgAAABcAAAP5AAAC1wAAAAACAAAABQAAAAAAAAAAEQAABP8AAALP"

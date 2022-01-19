@@ -2,6 +2,34 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
+	<key>lineedit_history_bulk_edit_replace_with</key>
+	<array>
+		<string>私のHな履歴書みてください</string>
+		<string>zho</string>
+		<string>惡魔姐姐 - Vol.</string>
+		<string>惡魔姐姐 - </string>
+		<string>惡魔姐姐</string>
+		<string>国</string>
+		<string>エロスの種子</string>
+		<string>着</string>
+		<string>恋</string>
+		<string> - Vol.</string>
+		<string>jpn</string>
+	</array>
+	<key>lineedit_history_bulk_edit_search_for</key>
+	<array>
+		<string>卷セミカラー</string>
+		<string>請看看我的情色履曆</string>
+		<string>jpn</string>
+		<string>姊姊 - 本子</string>
+		<string>姊姊 - </string>
+		<string>姊姊</string>
+		<string>國</string>
+		<string>慾望的種子</string>
+		<string>著</string>
+		<string>戀</string>
+		<string>卷$</string>
+	</array>
 	<key>lineedit_history_choose_library_dialog</key>
 	<array>
 		<string>C:\Users\Admin\Calibre</string>

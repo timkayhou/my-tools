@@ -1,4 +1,8 @@
 {
+  "basic_metadata_widget_splitter_state": {
+    "__class__": "bytearray",
+    "__value__": "AAAA/wAAAAEAAAADAAAA3AAAAUQAAAEZAf////8BAAAAAQA="
+  },
   "book_details_splitter_horizontal_state": [
     true,
     200
@@ -7,6 +11,12 @@
     "__class__": "bytearray",
     "__value__": "AAAA/wAAAAEAAAACAAABAAAAAEYA/////wEAAAABAA=="
   },
+  "bulk-mde-casing-algorithm": "title_case",
+  "bulk_metadata_window_geometry": {
+    "__class__": "bytearray",
+    "__value__": "AdnQywADAAAAAABQAAAAFQAABQsAAALKAAAAUQAAACwAAAUKAAACyQAAAAAAAAAABQAAAABRAAAALAAABQoAAALJ"
+  },
+  "bulk_metadata_window_tab": 1,
   "card_a_view books view state": {
     "column_alignment": {
       "size": "center",
@@ -208,12 +218,19 @@
       ]
     ]
   },
+  "metasingle_window_geometry3": {
+    "__class__": "bytearray",
+    "__value__": "AdnQywADAAAAAAAiAAAACgAABN0AAAK/AAAAIwAAACEAAATcAAACvgAAAAAAAAAABQAAAAAjAAAAIQAABNwAAAK+"
+  },
   "preferences dialog geometry": {
     "__class__": "bytearray",
     "__value__": "AdnQywADAAAAAACuAAAAAAAABFEAAALOAAAArwAAABcAAARQAAACzQAAAAAAAAAABQAAAACvAAAAFwAABFAAAALN"
   },
   "quick_start_guide_added": true,
   "quickview visible": false,
+  "recently_used_languages": [
+    "日语"
+  ],
   "search bar visible": true,
   "tag browser search box visible": false,
   "tag_browser_splitter_horizontal_state": [
