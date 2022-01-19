@@ -1,4 +1,8 @@
 {
+  "Plugin Updater plugin:plugin updater dialog": {
+    "__class__": "bytearray",
+    "__value__": "AdnQywADAAAAAADkAAAAawAABBsAAAJeAAAA5QAAAIIAAAQaAAACXQAAAAAAAAAABQAAAADlAAAAggAABBoAAAJd"
+  },
   "book_details_splitter_horizontal_state": [
     true,
     200
@@ -73,6 +77,12 @@
     false,
     300
   ],
+  "cover_grid_color": [
+    80,
+    80,
+    80
+  ],
+  "cover_grid_texture": null,
   "custom_colors_for_color_dialog": [
     [
       255,
@@ -171,9 +181,10 @@
       255
     ]
   ],
+  "default_author_link": null,
   "grid view visible": false,
   "library_usage_stats": {
-    "C:/Program Files/Tools/CalibrePortable/Calibre Library": 4
+    "C:/Program Files/Tools/CalibrePortable/Calibre Library": 8
   },
   "memory_view books view state": {
     "column_alignment": {
@@ -206,9 +217,14 @@
       ]
     ]
   },
+  "preferences dialog geometry": {
+    "__class__": "bytearray",
+    "__value__": "AdnQywADAAAAAACuAAAAAAAABFEAAALOAAAArwAAABcAAARQAAACzQAAAAAAAAAABQAAAACvAAAAFwAABFAAAALN"
+  },
   "quick_start_guide_added": true,
   "quickview visible": false,
   "search bar visible": true,
+  "show_emblems": false,
   "tag browser search box visible": false,
   "tag_browser_splitter_horizontal_state": [
     true,

@@ -49,14 +49,16 @@
   "main_search_history": [],
   "main_window_geometry": {
     "__class__": "bytearray",
-    "__value__": "AdnQywADAAAAAAAFAAAAAAAAA/oAAALYAAAABgAAABcAAAP5AAAC1wAAAAAAAAAABQAAAAAGAAAAFwAAA/kAAALX"
+    "__value__": "AdnQywADAAD/////////+gAABQAAAALQAAAABgAAABcAAAP5AAAC1wAAAAACAAAABQAAAAAAAAAAEQAABP8AAALP"
   },
   "match_tags_type": "any",
   "new_version_notification": true,
   "oldest_news": 60,
   "overwrite_author_title_metadata": true,
   "plugin_search_history": [],
-  "save_to_disk_template_history": [],
+  "save_to_disk_template_history": [
+    "{author_sort}/{title}/{title} - {authors}"
+  ],
   "scheduler_search_history": [],
   "search_as_you_type": false,
   "send_to_device_template_history": [],

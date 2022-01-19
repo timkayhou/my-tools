@@ -5,80 +5,80 @@
   "grouped_search_terms": {},
   "tag_browser_hidden_categories": [],
   "library_view books view state": {
+    "column_alignment": {
+      "pubdate": "center",
+      "size": "center",
+      "timestamp": "center"
+    },
+    "column_positions": {
+      "authors": 2,
+      "languages": 11,
+      "last_modified": 10,
+      "ondevice": 0,
+      "pubdate": 9,
+      "publisher": 8,
+      "rating": 5,
+      "series": 7,
+      "size": 4,
+      "tags": 6,
+      "timestamp": 3,
+      "title": 1
+    },
+    "column_sizes": {
+      "authors": 95,
+      "languages": 0,
+      "last_modified": 0,
+      "pubdate": 60,
+      "publisher": 62,
+      "rating": 50,
+      "series": 73,
+      "size": 91,
+      "tags": 48,
+      "timestamp": 75,
+      "title": 108
+    },
     "hidden_columns": [
       "last_modified",
       "languages"
     ],
-    "last_modified_injected": true,
     "languages_injected": true,
+    "last_modified_injected": true,
     "sort_history": [
       [
         "timestamp",
         false
       ]
-    ],
-    "column_positions": {
-      "ondevice": 0,
-      "title": 1,
-      "authors": 2,
-      "timestamp": 3,
-      "size": 4,
-      "rating": 5,
-      "tags": 6,
-      "series": 7,
-      "publisher": 8,
-      "pubdate": 9,
-      "last_modified": 10,
-      "languages": 11
-    },
-    "column_sizes": {
-      "title": 108,
-      "authors": 95,
-      "timestamp": 75,
-      "size": 91,
-      "rating": 50,
-      "tags": 48,
-      "series": 73,
-      "publisher": 62,
-      "pubdate": 60,
-      "last_modified": 0,
-      "languages": 0
-    },
-    "column_alignment": {
-      "size": "center",
-      "timestamp": "center",
-      "pubdate": "center"
-    }
+    ]
   },
   "books view split pane state": {
-    "hidden_columns": [],
     "column_positions": {
-      "ondevice": 0,
-      "title": 1,
       "authors": 2,
-      "timestamp": 3,
-      "size": 4,
-      "rating": 5,
-      "tags": 6,
-      "series": 7,
-      "publisher": 8,
-      "pubdate": 9,
+      "languages": 11,
       "last_modified": 10,
-      "languages": 11
+      "ondevice": 0,
+      "pubdate": 9,
+      "publisher": 8,
+      "rating": 5,
+      "series": 7,
+      "size": 4,
+      "tags": 6,
+      "timestamp": 3,
+      "title": 1
     },
     "column_sizes": {
-      "title": 100,
       "authors": 100,
-      "timestamp": 100,
-      "size": 100,
-      "rating": 100,
-      "tags": 100,
-      "series": 100,
-      "publisher": 100,
-      "pubdate": 100,
+      "languages": 100,
       "last_modified": 100,
-      "languages": 100
-    }
+      "pubdate": 100,
+      "publisher": 100,
+      "rating": 100,
+      "series": 100,
+      "size": 100,
+      "tags": 100,
+      "timestamp": 100,
+      "title": 100
+    },
+    "hidden_columns": []
   },
   "news_to_be_synced": [],
   "field_metadata": {
@@ -94,7 +94,7 @@
         "list_to_ui": " & "
       },
       "kind": "field",
-      "name": "\u8457\u8005",
+      "name": "\u4f5c\u8005",
       "search_terms": [
         "authors",
         "author"
@@ -119,7 +119,7 @@
         "list_to_ui": ", "
       },
       "kind": "field",
-      "name": "\u8a00\u8a9e",
+      "name": "\u8bed\u8a00",
       "search_terms": [
         "languages",
         "language"
@@ -140,7 +140,7 @@
       "datatype": "series",
       "is_multiple": {},
       "kind": "field",
-      "name": "\u30b7\u30ea\u30fc\u30ba",
+      "name": "\u4e1b\u4e66",
       "search_terms": [
         "series"
       ],
@@ -162,7 +162,7 @@
         "list_to_ui": ", "
       },
       "kind": "field",
-      "name": "\u6240\u6301\u30d5\u30a9\u30fc\u30de\u30c3\u30c8",
+      "name": "\u683c\u5f0f",
       "search_terms": [
         "formats",
         "format"
@@ -183,7 +183,7 @@
       "datatype": "text",
       "is_multiple": {},
       "kind": "field",
-      "name": "\u767a\u884c\u8005",
+      "name": "\u51fa\u7248\u5546",
       "search_terms": [
         "publisher"
       ],
@@ -203,7 +203,7 @@
       "datatype": "rating",
       "is_multiple": {},
       "kind": "field",
-      "name": "\u8a55\u4fa1",
+      "name": "\u8bc4\u5206",
       "search_terms": [
         "rating"
       ],
@@ -222,7 +222,7 @@
       "datatype": null,
       "is_multiple": {},
       "kind": "category",
-      "name": "\u30cb\u30e5\u30fc\u30b9",
+      "name": "\u65b0\u95fb",
       "search_terms": [],
       "is_custom": false,
       "is_category": true,
@@ -243,7 +243,7 @@
         "list_to_ui": ", "
       },
       "kind": "field",
-      "name": "\u30bf\u30b0",
+      "name": "\u6807\u7b7e",
       "search_terms": [
         "tags",
         "tag"
@@ -266,7 +266,7 @@
         "list_to_ui": ", "
       },
       "kind": "field",
-      "name": "\u8b58\u5225\u5b50",
+      "name": "\u4e66\u53f7",
       "search_terms": [
         "identifiers",
         "identifier",
@@ -286,7 +286,7 @@
       "datatype": "text",
       "is_multiple": {},
       "kind": "field",
-      "name": "\u8457\u8005\u8aad\u307f",
+      "name": "\u4f5c\u8005\u5206\u7c7b",
       "search_terms": [
         "author_sort"
       ],
@@ -324,7 +324,7 @@
       "datatype": "text",
       "is_multiple": {},
       "kind": "field",
-      "name": "\u30b3\u30e1\u30f3\u30c8",
+      "name": "\u6ce8\u91ca",
       "search_terms": [
         "comments",
         "comment"
@@ -343,7 +343,7 @@
       "datatype": "int",
       "is_multiple": {},
       "kind": "field",
-      "name": "\u8868\u7d19",
+      "name": "\u5c01\u9762",
       "search_terms": [
         "cover"
       ],
@@ -379,7 +379,7 @@
       "datatype": "datetime",
       "is_multiple": {},
       "kind": "field",
-      "name": "\u4fee\u6b63\u65e5",
+      "name": "\u4fee\u6539\u65e5\u671f",
       "search_terms": [
         "last_modified"
       ],
@@ -399,7 +399,7 @@
       "datatype": "text",
       "is_multiple": {},
       "kind": "field",
-      "name": "\u30c7\u30d0\u30a4\u30b9\u4e0a",
+      "name": "\u5728\u8bbe\u5907\u4e0a",
       "search_terms": [
         "ondevice"
       ],
@@ -417,7 +417,7 @@
       "datatype": "text",
       "is_multiple": {},
       "kind": "field",
-      "name": "\u30d1\u30b9",
+      "name": "\u8def\u5f84",
       "search_terms": [],
       "is_custom": false,
       "is_category": false,
@@ -433,7 +433,7 @@
       "datatype": "datetime",
       "is_multiple": {},
       "kind": "field",
-      "name": "\u767a\u884c\u65e5",
+      "name": "\u51fa\u7248\u65e5\u671f",
       "search_terms": [
         "pubdate"
       ],
@@ -489,7 +489,7 @@
       "datatype": "text",
       "is_multiple": {},
       "kind": "field",
-      "name": "\u30b7\u30ea\u30fc\u30ba\u8aad\u307f",
+      "name": "\u7cfb\u5217\u6392\u5e8f",
       "search_terms": [
         "series_sort"
       ],
@@ -507,7 +507,7 @@
       "datatype": "text",
       "is_multiple": {},
       "kind": "field",
-      "name": "\u30bf\u30a4\u30c8\u30eb\u8aad\u307f",
+      "name": "\u6807\u9898\u6392\u5e8f",
       "search_terms": [
         "title_sort"
       ],
@@ -525,7 +525,7 @@
       "datatype": "float",
       "is_multiple": {},
       "kind": "field",
-      "name": "\u30b5\u30a4\u30ba",
+      "name": "\u5927\u5c0f",
       "search_terms": [
         "size"
       ],
@@ -543,7 +543,7 @@
       "datatype": "datetime",
       "is_multiple": {},
       "kind": "field",
-      "name": "\u65e5\u4ed8",
+      "name": "\u65e5\u671f",
       "search_terms": [
         "date"
       ],
@@ -563,7 +563,7 @@
       "datatype": "text",
       "is_multiple": {},
       "kind": "field",
-      "name": "\u30bf\u30a4\u30c8\u30eb",
+      "name": "\u4e66\u540d",
       "search_terms": [
         "title"
       ],
@@ -593,5 +593,160 @@
       "is_editable": true,
       "rec_index": 16
     }
-  }
+  },
+  "book_display_fields": [
+    [
+      "title",
+      false
+    ],
+    [
+      "authors",
+      true
+    ],
+    [
+      "series",
+      true
+    ],
+    [
+      "identifiers",
+      true
+    ],
+    [
+      "tags",
+      true
+    ],
+    [
+      "formats",
+      true
+    ],
+    [
+      "path",
+      true
+    ],
+    [
+      "publisher",
+      false
+    ],
+    [
+      "rating",
+      false
+    ],
+    [
+      "author_sort",
+      false
+    ],
+    [
+      "sort",
+      false
+    ],
+    [
+      "timestamp",
+      false
+    ],
+    [
+      "uuid",
+      false
+    ],
+    [
+      "comments",
+      true
+    ],
+    [
+      "id",
+      false
+    ],
+    [
+      "pubdate",
+      false
+    ],
+    [
+      "last_modified",
+      false
+    ],
+    [
+      "size",
+      false
+    ],
+    [
+      "languages",
+      false
+    ]
+  ],
+  "qv_display_fields": [
+    [
+      "title",
+      true
+    ],
+    [
+      "authors",
+      true
+    ],
+    [
+      "series",
+      true
+    ],
+    [
+      "languages",
+      false
+    ],
+    [
+      "formats",
+      false
+    ],
+    [
+      "publisher",
+      false
+    ],
+    [
+      "rating",
+      false
+    ],
+    [
+      "tags",
+      false
+    ],
+    [
+      "identifiers",
+      false
+    ],
+    [
+      "author_sort",
+      false
+    ],
+    [
+      "id",
+      false
+    ],
+    [
+      "last_modified",
+      false
+    ],
+    [
+      "path",
+      false
+    ],
+    [
+      "pubdate",
+      false
+    ],
+    [
+      "sort",
+      false
+    ],
+    [
+      "size",
+      false
+    ],
+    [
+      "timestamp",
+      false
+    ],
+    [
+      "uuid",
+      false
+    ]
+  ],
+  "column_color_rules": [],
+  "column_icon_rules": [],
+  "cover_grid_icon_rules": []
 }
