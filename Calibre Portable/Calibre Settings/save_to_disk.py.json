@@ -9,6 +9,6 @@
   "template": "{author_sort}/{title}/{title} - {authors}",
   "timefmt": "%b, %Y",
   "to_lowercase": false,
-  "update_metadata": false,
+  "update_metadata": true,
   "write_opf": false
 }
