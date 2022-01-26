@@ -7,6 +7,7 @@ RegistryWorkshop/
 *.log
 Calibre Portable/Calibre Library
 Calibre Portable/Calibre Settings/caches
+Calibre Portable/Calibre Settings/*.json
 CrystalDiskInfo/Smart
 CrystalDiskInfo/DiskInfo.ini
 Dism++/Config/Dism++.log
