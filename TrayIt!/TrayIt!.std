@@ -1,0 +1,87 @@
+Windows Registry Editor Version 5.00
+
+# Summary of the TrayIt profile options
+#
+#         "Options"=" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0"
+#                     ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^
+#                     | | | | | | | | | | | | | | | | | | |
+# Window title matching | | | | | | | | | | | | | | | | | |
+# Reserved -------------+ | | | | | | | | | | | | | | | | |
+# On Start: Minimize window | | | | | | | | | | | | | | | |
+# Filter: Match class pattern | | | | | | | | | | | | | | | 
+# On Start: Hide Window ------+ | | | | | | | | | | | | | |
+# Profile is disabled ----------+ | | | | | | | | | | | | |
+# Profile is locked --------------+ | | | | | | | | | | | |
+# SDI application like Excel or PPT + | | | | | | | | | | |
+# Dominant profile -------------------+ | | | | | | | | | |
+# Hide app from the taskbar all the times | | | | | | | | |
+# Safe Mode - does not hide app window ---+ | | | | | | | |
+# Filter: window has children --------------+ | | | | | | |
+# Reserved -----------------------------------+ | | | | | |
+# Use profile name as a tooltip for the icon ---+ | | | | |
+# Use icon from the profile ----------------------+ | | | |
+# Use polling (only use it if you know what it is!) + | | |
+# On Start: Set attributes on start ------------------+ | |
+# On start: Make window always on top ------------------+ |
+# On Start: Set Transparency -----------------------------+
+#
+# "Class"="<Class_Name>" - class name or class mask depending 
+#                          on "Match class pattern" option
+#
+# "App"="\\<Application Name>" -  application (.exe file) name 
+#
+# "Title"="<Window title>" - pattern for "Window title matching"
+#
+# "Name"="<profile name>"  - also a tooltip if "Use profile name
+#                            as a tooltip option checked"
+#
+# "Icon"="<icon path">     - path to the resource file to extract 
+#                            the icon. The value is usually managed
+#                            automatically, but can be overriden by
+#                            setting a "Use icon from the profile"
+#
+# "GUID"="<guid>           - this is an unique identifier that 
+#                            windows suppose to use to manage the
+#                            hiding/restoring icons in XP. Seems
+#                            not to work at this point.
+
+
+[HKEY_CURRENT_USER\Software\Nys\TrayIt4!\Profiles]
+
+[HKEY_CURRENT_USER\Software\Nys\TrayIt4!\Profiles\Excel_2002]
+"Class"="XLMAIN"
+"App"="\\EXCEL.EXE"
+"Options"=" 0 0 0 0 0 1 1 1 0 0 0"
+"Name"="Microsoft Excel 2002"
+
+
+[HKEY_CURRENT_USER\Software\Nys\TrayIt4!\Profiles\Microsoft_Word]
+"Class"="OpusApp"
+"App"="\\WINWORD.EXE"
+"Options"=" 1 0 0 0 0 1 1 0 0 0 0"
+"Title"="- Microsoft Word"
+"Name"="Microsoft Word 2002"
+
+
+[HKEY_CURRENT_USER\Software\Nys\TrayIt4!\Profiles\Windows_Media_Player]
+"Class"="WMP*"
+"App"="\\WMPLAYER.EXE"
+"Options"=" 0 0 0 1 0 1 1 0 0 0 1 0 0 0 0 0 0 0 0"
+"Name"="Windows Media Player 10"
+
+
+[HKEY_CURRENT_USER\Software\Nys\TrayIt4!\Profiles\ThunderBird]
+"Class"="MozillaUIWindowClass"
+"App"="THUNDERBIRD.EXE"
+"Options"=" 0 0 0 0 0 1 1 0 0 0 1 1 0 0 0 0 0 0 0"
+"Complexity"="14"
+"Name"="Mozilla Thunderbird"
+
+
+[HKEY_CURRENT_USER\Software\Nys\TrayIt4!\Profiles\Microsoft_PowerPoint]
+"Guid"="{247BF910-36B6-4F22-9197-DFE9580ABD5C}"
+"Class"="PP10FrameClass"
+"App"="\\POWERPNT.EXE"
+"Options"=" 0 0 0 0 0 1 1 1 0 0 0 0 0 0 0 0 0 0 0"
+"Name"="Microsoft PowerPoint"
+

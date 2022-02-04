@@ -1,0 +1,160 @@
+&About ...	关于...
+&Apply	应用
+&Close Group	关闭组
+&Close Window	关闭窗口
+&Delete Profile	删除配置
+&Edit	编辑
+&Edit Profile ...	编辑配置 ...
+&Enable Profile	应用配置
+&Exit	退出
+&Help	帮助
+&Help...	帮助...
+&Hide Group	隐藏整体
+&Hide Window	隐藏窗口
+&Options	选择
+&Predefined Profiles	预设配置
+&Profiles	配置
+&Refresh Tray Icons	刷新托盘图标
+&Restore Group	恢复整体
+&Restore Window	恢复窗口
+&Select Language	选择语言
+&Shell Icons	外壳图标
+&Uninstall	卸载
+[Create new GUID]	[建立新的统一标识符]
+[No module information available]	[没有组件信息]
+[Unable to get process information]	[无法取得程序信息]
+1. You can temporarily put any window in the system tray by keeping down the <Shift> button  when minimizing the window.	1. 缩小窗口时按住<Shift>键，可暂时将窗口放入系统托盘。
+2. To always keep window in the system tray when minimized, click with the RIGHT mouse button on the corresponding icon created in the tray in the previous step and  check "Place in System Tray" in the popup menu.	2. 在放入托盘的图标上，按鼠标右键显示菜单，选择"放入系统托盘"，可固定将窗口缩小放入系统托盘。
+3. Clicking with the right mouse button on the minimize icon will bring TrayIt! context menu for this window. Just check "Place in System Tray" in the popup menu to make window always go to the tray.	3. 在这个窗口的缩小按钮上，按鼠标右键显示 TrayIt! 菜单，选择"放入系统托盘"，可固定将窗口放入托盘。
+About ...	关于...
+About TrayIt!	关于TrayIt!
+Activate status monitoring if message hook can not be installed	如果无法装载讯息挂钩，便激活状态监视
+Active Profiles	现用配置
+Advanced		高级
+Always start minimized	总是启动缩小
+Application	程序
+Application Name and GUID	程序名称和统一标识符
+Are you sure you want to delete a locked entry?	确定要删除已锁定的登录?
+Are you sure?	确定?
+Available Profiles	可用配置
+Basic	基本
+Can't save options - Profile does not exist anymore.	无法储存选项 - 配置已不存在。
+Change compatibility options only if you are experiencing problems with the default settings. Please report problems to igornys@writeme.com 	如果预设值有问题，更改兼容选项。请将问题寄给 igornys@writeme.com
+Change these settings at your own discretion! Making a window layered may prevent Multimedia and Skinned application from working properly.	小心更改这些设定值！设定多层窗口可使多媒体和表皮程序无法正常操作。
+Class Filtering	种类过滤
+Compatibility	兼容
+Complexity Filter	复合过滤
+Console Window	控制台窗口
+Create Tray Icon for the TrayIt application	建立 TrayIt 的托盘图标
+Current GUID	现用统一标识符
+Delete Profile	删除配置
+Di&sable Profile	除用配置
+Disable Quick Minimize	除去快速缩小
+Disabled Profiles	除用配置
+Do not create Tray Icon - minimize and hide window completely	不建立托盘图标 - 缩小及完全隐藏窗口
+Edit &Profile	修改配置
+Edit Current Profile	修改现用配置
+Enable extra processing for windows that can not be hooked	额外处理不能挂钩的窗口
+Enable functionallity to remove extra shell icons	使用功能除去外壳图标
+Enable Window Attributes menu	使用窗口属性菜单
+Enable/Disable Current Profile	使用/不使用现在配置
+Enable/Disable Tray Icons for selected process	使用/不使用所选程序的托盘图标
+Error creating window class: 	建立窗口种类时产生错误:
+Error creating window: 	建立窗口时产生错误:
+Error loading	装载时产生错误
+This window has no associated profile!	这个窗口没有相关配置!
+Error registering hook!	登记挂钩时产生错误!
+Exact match with the windows class name is used by default. If pattern matching is active,  '*' and '?' wildcards are allowed in the class name. 	准预设置是准确配对窗口种类名称。如果已激活配对模型，种类名称可使用'*' 及 '?' 通配符。
+Exit TrayIt!, are you sure?	退出TrayIt!, 确定?
+Export &Settings	输出设定
+Extras	附加
+File	文件
+Find Window	寻找窗口
+For the latest version of TrayIt! visit  http://www.trayit.com	检查 TrayIt! 最新版本，游览 http://www.trayit.com
+Group similar tray icons for each application	整合程序相同的托盘图标
+Grouping	整合
+Groups	整体
+Handle SDI type applications like Excel, PowerPoint or MS Project	处理如Excel, PowerPoint 或 MS Project等SDI程序
+Help file not found!	找不到帮助文件!
+Help!	帮助!
+Hide application from the Taskbar all the time, keep tray icon only	在任务栏隐藏程序，只保留托盘图标
+Hold <Shift> instead of <Ctrl> minimizing a window to the tray	以按住 <Shift> 键代替<Ctrl>键，将窗口缩小到托盘
+Hold the left mouse key when dragging the Finder Tool over the target window	按住左鼠键移动寻找工具到目标窗口
+Icon GUID	图标统一标识符
+Invalid Window	无效窗口
+Load TrayIt! at Startup	窗口启动时载入TrayIt!
+Lock (preserve) settings when changing 'Place in System Tray' status.	更改 '放入系统托盘' 状态时锁定 (保存) 设定值。
+Make window layered to enable transparency	使窗口多层及透明
+Make window topmost and always visible	使窗口置顶及固定可见
+Match pattern below with the window class name 	用窗口种类名称配对以下模型
+Match pattern below with the window title when creating a Tray icon	建立托盘图标时用窗口标题配对以下模型
+Minimize when in Foreground, activate when in Background	前景时缩小，背景时激活
+Minimize window on creation / when TrayIt! is started	TrayIt! 启动时缩小窗口
+Minimize	缩小
+Miscellaneous	其他
+Modify Application Options	修改程序选项
+More	更多
+Name as it appears in the profile list	名称根据配置列表
+No profiles stored	配置未储存
+Only create Tray Icon for windows having children	有子窗口才建立托盘图标
+Pattern matches a substring in the window title. Patterns are not case sensitive.  '*' and '?' wildcards are allowed. '^' as a first symbol inverts the pattern.  '|' separates the alternatives.	模型配对窗口标题的子字串。模型可大小写。可使用'*' 及 '?' 通配符。以 '^' 首个字符转化模型。 以 '|' 分隔选项。
+Place in System &Tray	放入系统 &托盘
+Place in System Tray!	放入系统托盘!
+Please note that context menu will work only for the standard minimize icon and will not pop-up if the program use skins like MS Media player.	请留意菜单只用于标准的缩小图标。如果程序使用像MS Media player的表皮，菜单将不会弹出。
+Please restart TrayIt! to activate new settings.	请重新启动 TrayIt! 以便激活新的设定.
+Please wait .... Initialization in progress	请稍等 .... 设定初始值
+Profile	配置
+Profile(s)	配置
+Profiles List	配置列表
+Profiles	配置
+Quick Minimize	快速缩小
+Refresh &Window List	刷新窗口列表
+Refresh Icons	刷新图标
+Refresh Profiles	刷新配置
+Refresh	刷新
+Safe mode - use an alternative slow algorithm to increase compatibility	安全配置 - 利用较慢运算法则改善兼容。
+Select a new GUID for the Tray Icon:	选择新的统一标识符给托盘图标:
+Select Profiles to Import	选择输入配置
+Enable compatibility mode supporting 64-bit Windows	使用支持64位元窗口的兼容配置
+Set window attributes on creation / when TrayIt! is started	启动 TrayIt! 时设定窗口的属性
+Shell Icons List	外壳图标列表
+Shell Icons	外壳图标
+ShellIcons	外壳图标
+Show Currently Active Windows	显示现用窗口
+Show Profile List	显示配置列表
+Show System Tray Icon in minimized state only	只在缩小状态时显示系统托盘图标
+Show window handler in tooltips and listview	工具提示和列表查看时显示窗口处理器
+Standard definition file not found!	未找到标准定义文件!
+Startup	启动
+Support Visual Styles on Windows XP	支持窗口XP的视觉式样
+System will return to the standard Windows (c) behavior.	系统将恢复窗口的标准设定。
+The profiles will appear in the disabled state. You will need to go to the 'Profiles' dialog to enable it.	在弃选状态下将显示配置。你必须在配置对话栏中重选。
+The required message hook notifications are missing. Try to reboot Windows!	必要的信息挂钩通知已消失。请重新启动窗口!
+Title Filtering	标题过滤
+Toggle Profile	切换配置
+Toggle Tray Icons	切换托盘图标
+Topmost	置顶
+Translated to English by Igor Nys, 2007	中文翻译: jonaheh@gmail.com, 2007
+Transparency	透明度
+Tray Icon GUID	托盘图标统一标识符
+Tray Icon	托盘图标
+Tray	托盘
+TrayApp	托盘程序
+TrayIt! &Application ...	TrayIt! 程序 ...
+TrayIt! Application -- Please Wait	TrayIt! 程序 -- 请稍等
+TrayIt! Application Options	TrayIt! 程序选项
+TrayIt! by Igor Nys	TrayIt! - Igor Nys 编程
+TrayIt! creates an icon in System Tray and hides the minimized window from the taskbar. There are different ways to use TrayIt!:	TrayIt! 在系统托盘建立图标并隐藏在任务栏已缩小的窗口。使用TrayIt!有各种方法:
+TrayIt! is checking notifications from other applications ...	TrayIt!正检查其他程序的通知 ...
+TrayIt! Minimizing Options	TrayIt! 缩小选项
+TrayIt! will be uninstalled and all settings will be removed.	卸载 TrayIt! 并除去所有设定.
+Uncheck the line to remove the shell icons	弃选直线以除去外壳图标
+Use path below for the Tray Icon	使用以下作为托盘图标的路径
+Use profile name as a tooltip for the tray icon	使用配置名称作为托盘图标的提示
+Use Single-click on the tray icon	单击托盘图标
+Welcome to TrayIt!	TrayIt! 欢迎你
+Window attributes	窗口属性
+Window complexity	窗口复合
+Window Options	窗口选项
+Windows	窗口
+You can select and import profiles for the most common applications from the list above. The list includes only the applications that requere a special handling. 	你可由以上列表选择输入常用程序配置。列表中包含有待特殊处理的程序。
