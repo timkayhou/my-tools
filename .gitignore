@@ -1,3 +1,4 @@
+!*.dll
 node_modules/
 .vs/
 balenaEtcher/
