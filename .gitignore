@@ -1,4 +1,6 @@
+!*.exe
 !*.dll
+!*.pdb
 node_modules/
 .vs/
 balenaEtcher/
