@@ -1,0 +1,80 @@
+[Version]
+Signature="$Windows NT$"
+Class=DiskDrive
+ClassGuid={4D36E967-E325-11CE-BFC1-08002BE10318}
+Provider=%HGST%
+DriverVer=12/14/2002,1.0.1.40
+CatalogFile=cfadisk.cat
+
+[PackageInfo]
+Name=cfadisk
+
+[Manufacturer]
+%HGST% = cfadisk_device,NTamd64
+
+[SourceDisksNames]
+1 = %DiskId1%,,,""
+
+[SourceDisksFiles]
+cfadisk.sys = 1,
+
+[DestinationDirs]
+DefaultDestDir= 12      ; %SystemRoot%\System32\Drivers
+cfadisk_copyfiles=12    ; %SystemRoot%\System32\Drivers
+
+[cfadisk_device.NTamd64]
+%Microdrive_devdesc% = cfadisk_install,USBSTOR\GenDisk
+
+[DefaultInstall.NTamd64]
+CopyINF = cfadisk.inf
+CopyFiles   = cfadisk_copyfiles
+
+[DefaultInstall.NTamd64.Services]
+AddService  = cfadisk,,cfadisk_ServiceInstallSection,cfadisk_EventLog.Install
+AddService  = disk,2,gendisk_ServiceInstallSection
+
+[cfadisk_install]
+CopyFiles=cfadisk_copyfiles
+
+[cfadisk_copyfiles]
+cfadisk.sys
+
+[cfadisk_install.HW]
+AddReg=cfadisk_addreg
+
+[cfadisk_addreg]
+HKR,,"LowerFilters",0x00010008,"cfadisk"
+
+[cfadisk_install.Services]
+AddService=cfadisk,,cfadisk_ServiceInstallSection,cfadisk_EventLog.Install
+AddService=disk,2,gendisk_ServiceInstallSection
+
+[cfadisk_ServiceInstallSection]
+DisplayName    = "CompactFlash Filter Driver"
+ServiceType    = 1
+StartType      = 0
+ErrorControl   = 1
+ServiceBinary  = %12%\cfadisk.sys
+LoadOrderGroup = PnP Filter
+
+[gendisk_ServiceInstallSection]
+DisplayName    = "Disk Driver"
+ServiceType    = 1
+StartType      = 0
+ErrorControl   = 1
+ServiceBinary  = %12%\disk.sys
+LoadOrderGroup = SCSI Class
+
+[cfadisk_EventLog.Install]
+AddReg=cfadisk_EventLog.AddReg
+
+[cfadisk_EventLog.AddReg]
+HKR,,EventMessageFile,0x00020000,"%%SystemRoot%%\System32\IoLogMsg.dll;%%SystemRoot%%\System32\Drivers\cfadisk.sys"
+HKR,,TypesSupported,0x00010001,7
+
+; -----------------------
+
+[Strings]
+DiskId1 = "CompactFlash Filter Driver Install Disk"
+HGST = "Hitachi Global Storage Technologies"
+Microdrive_devdesc = "Flash To Hard Driver"
