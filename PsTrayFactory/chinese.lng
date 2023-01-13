@@ -1,0 +1,193 @@
+[Header]
+
+Language=汉化版
+Author=PS Soft Lab
+Version=PS Tray Factory 3.0
+
+[TfrmPstrayFMain]
+
+tsTrayIconManager.Caption=系统托盘图标列表(&S)
+tsOptions.Caption=选项(&O)
+tsOpMain.Caption=常规(&G)
+tsOpAdditional.Caption=附加(&A)
+
+aExit.Caption=退出(&X)
+aRestoreIcons.Caption=还原系统托盘图标(&R)
+aHelp.Caption=帮助(&H)
+aGettingStarted.Caption=快速入门...
+aHide.Caption=隐藏
+lblIconHotkey.Caption=热键
+lblIconAction.Caption=操作
+
+
+aOrder.Caption=现在购买！
+aRegister.Caption=输入注册码...
+aAbout.Caption=关于...
+aSaveSettings.Caption=备份设置...
+aRestoreSettings.Caption=还原设置...
+aPSTFHomePage.Caption=访问 PS Tray Factory 主页
+grbxTrayIconOptions.Caption=系统托盘图标可见性
+lblShowIcon.Caption=系统托盘
+lblShowIconInMenu.Caption=PS Tray Factory 托盘菜单
+grbxPopupMenuOnMouseHover.Caption=.      鼠标经过时弹出菜单(&P)
+lblIntervalOnMouseHover.Caption=间隔 (毫秒)(&I)
+lblEnableProtection.Caption=启用/禁用系统托盘保护
+
+tsGeneral.Caption=常规
+tsTrayIconsList.Caption=系统托盘图标列表
+tsTrayIconsRestore.Caption=系统托盘图标还原
+tsTrayIconsSorter.Caption=系统托盘图标分类
+tsTrayProtection.Caption=系统托盘保护
+tsApplicationMinimizer.Caption=应用程序最小化
+tsAdditional.Caption=附加
+
+miFile.Caption=文件(&F)
+miActions.Caption=操作(&A)
+miHelp.Caption=帮助(&H)
+
+aShowMainWindow.Caption=显示/隐藏
+
+lblLanguage.Caption=语言(&L)
+
+aHideInactiveIcon.Caption=如果非活动则隐藏图标 (非活动图标)
+aHideIcon.Caption=隐藏图标
+aShowIcon.Caption=显示图标
+aTMVHideIcon.Caption=从托盘菜单隐藏图标
+aTMVShowIcon.Caption=在托盘菜单中显示图标
+aMarkAsOld.Caption=标记为"旧的"
+aMarkAsNew.Caption=标记为"新的"
+aMoveUp.Caption=上移图标
+aMoveDown.Caption=下移图标
+aAlwaysShowInMenu.Caption=始终显示于菜单中
+aIdByClassName.Caption=通过窗口类识别
+
+chbxHideTrayIcon.Caption=隐藏系统托盘图标
+chbxLoadAtStartup.Caption=随 Windows 启动
+chbxSwapMouseButtons.Caption=交换鼠标按钮(&B)
+chbxSafeMode.Caption=切换 PSTF 到 '安全' 模式(&W)
+chbxSaveConfigForAllUsers.Caption=为全部用户保存设置(&S)
+chbxAutoRestoreIcons.Caption=资源管理器崩溃后自动还原图标
+chbxHideStartButton.Caption=隐藏"开始"按钮
+
+grbxTILOptions.Caption=托盘图标列表(&C)
+lblInactiveInterval.Caption=非活动间隔 (毫秒)(&I)
+lblShowMainWindow.Caption=显示主窗口(&W)
+lblShowTrayMenu.Caption=显示系统托盘菜单
+chbxAddToBegin.Caption=添加新图标到顶端(&N)
+chbxReverIconsMenu.Caption=托盘图标菜单逆序
+chbxShowNameOfExecutable.Caption=显示可执行文件名称(&E)
+lblRecentlyUsedInterval.Caption=如果不使用 (天) 则隐藏托盘图标
+chbxHideLongTimeNotUsed.Caption=隐藏很少使用的托盘图标
+
+grbxOther.Caption=其它选项
+lblTaskbarTransparency.Caption=任务栏透明度(&B)
+lblMainWindowTransparency.Caption=主窗口透明度(&I)
+
+grbxSecurity.Caption=安全(&S)
+chbxEnableProtection.Caption=启用系统托盘保护(&E)
+chbxProtectTrayMenu.Caption=保护系统托盘菜单(&P)
+btnChangePassword.Caption=更改密码(&C)...
+
+grbxAppMinimizer.Caption=.    应用程序最小化(&E)
+chbxMinimizeToTray.Caption=启用应用程序最小化(&E)
+lblMinimizeToTray.Caption=最小化应用程序到系统托盘(&M)
+lblRestoreFromTray.Caption=从托盘中还原最后最小化的应用程序(&R)
+
+grbxTrayIconsSorter.Caption=托盘图标分类(&Y)
+chbxAutosortTrayIcons.Caption=在系统托盘自动排序图标(&U)
+chbxRevertTray.Caption=系统托盘图标逆序(&V)
+lblSortTrayIcons.Caption=系统托盘图标排序
+
+btnOrder.Caption=立即订购(&D)!
+btnRegister.Caption=输入注册码(&E)...
+
+aRestoreAllMinimized.Caption=还原全部最小化的应用程序
+aSortTrayIcons.Caption=托盘图标排序
+grbxTrayIconsRestore.Caption=托盘图标还原
+lblAutoRestoreInterval.Caption=自动还原间隔 (毫秒)
+lblRestoreIcons.Caption=还原系统托盘图标
+tsAppMinimizer.Caption=应用程序最小化(&A)
+
+aRefreshAppLst.Caption=刷新应用程序列表
+aMinimizeToTray.Caption=最小化到托盘
+aRestoreFromTray.Caption=从托盘还原
+aRestoreAllFromTray.Caption=从托盘全部还原
+
+aWndMinToTray.Caption=最小化到托盘
+aWndStayOnTop.Caption=显示状态栏
+
+miAdditional.Caption=附加
+
+aTrayIconProperties.Caption=属性
+
+
+[TfrmEnterPassword]
+lblPassword.Caption=密码(&P)
+btnCancel.Caption=取消
+
+[TfrmChangePassword]
+Caption=设置密码
+lblOldPassword.Caption=旧密码(&O)
+lblPassword.Caption=新密码(&N)
+lblPassword1.Caption=确认新密码(&A)
+btnCancel.Caption=取消
+
+[TfrmTrayIconProperties]
+Caption=属性
+lblProperties.Caption=属性
+lblIconID.Caption=ID
+lblWndHandle.Caption=窗口句柄
+lblWndClass.Caption=窗口类
+lblTooltip.Caption=工具提示
+lblApplication.Caption=应用程序
+lblApplicationPath.Caption=应用程序路径
+lblOptions.Caption=选项
+chbxUseAlternativeIcon.Caption=使用可选图标
+btnSelectIcon.Caption=选择图标...
+lblShowIcon.Caption=显示图标
+lblShowIconInMenu.Caption=PS Tray Factory 托盘菜单
+grbxTrayIconOptions.Caption=系统托盘图标可见性
+aOpenFolder.Caption=打开目的目录
+btnApply.Caption=应用
+btnOK.Caption=确定(&O)
+btnCancel.Caption=取消(&C)
+
+[TfrmPSTFAbout]
+Caption=关于
+lblRegisteredToTitle.Caption=已注册给:
+btnOrder.Caption=订购...
+btnRegister.Caption=注册...
+lblHomePageTitle.Caption=主页:
+lblSupportTitle.Caption=支持：
+btnOK.Caption=确定
+
+[Tips]
+
+
+[Other]
+ConfirmExit=你要退出吗?
+NoTitle=<无标题>
+lblRegName.Caption=名称
+lblRegKey.Caption=调号
+lblPurchase.Caption=购买注册码
+ExpiredMsg=试用期满. 请注册.
+RegDlgCaption=PS Tray Factory 注册.
+
+btnPaste.Caption=粘贴(&P)
+
+OperModeChanged=操作模式已更改. 需要重新启动.
+InvalidPassword=密码错误
+
+iaShowHide=显示/隐藏
+iaLButtonClick=左键单击
+iaRButtonClick=右键单击
+iaLButtonDoubleClick=左双击鼠标
+iaRButtonDoubleClick=右双击鼠标
+
+aTMVDefaultShow=默认 (在托盘菜单显示图标)
+aTMVDefaultHide=默认 (从托盘菜单隐藏图标)
+aTMVDefaultShowShort=默认 (显示图标)
+aTMVDefaultHideShort=默认 (隐藏图标)
+
+chAppMinWindowTitle=窗口标题
+chAppMinFileName=文件名称

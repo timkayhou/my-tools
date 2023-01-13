@@ -1,0 +1,194 @@
+[Header]
+
+Language=English
+Author=PS Soft Lab
+Version=PS Tray Factory 2.5
+
+[TfrmPstrayFMain]
+
+tsTrayIconManager.Caption=&System Tray Icons List
+tsOptions.Caption=&Options
+tsOpMain.Caption=&General
+tsOpAdditional.Caption=&Additional
+
+aExit.Caption=E&xit
+aRestoreIcons.Caption=&Restore system tray icons
+aHelp.Caption=&Help
+aGettingStarted.Caption=Getting started...
+aHide.Caption=Hide
+lblIconHotkey.Caption=Hotkey
+lblIconAction.Caption=Action
+
+
+aOrder.Caption=Order Now!
+aRegister.Caption=Enter Registration Key...
+aAbout.Caption=About...
+aSaveSettings.Caption=Backup Settings...
+aRestoreSettings.Caption=Restore Settings...
+aPSTFHomePage.Caption=Visit the PS Tray Factory Home Page
+grbxTrayIconOptions.Caption=System tray icon visibility
+lblShowIcon.Caption=System tray
+lblShowIconInMenu.Caption=PS Tray Factory tray menu
+grbxPopupMenuOnMouseHover.Caption=.      &Popup menu on mouse hover
+lblIntervalOnMouseHover.Caption=&Interval (ms)
+lblEnableProtection.Caption=Enable/disable the system tray protection
+
+tsGeneral.Caption=General
+tsTrayIconsList.Caption=System Tray Icons List
+tsTrayIconsRestore.Caption=System Tray Icons Restorer
+tsTrayIconsSorter.Caption=System Tray Icons Sorter
+tsTrayProtection.Caption=System Tray Protection
+tsApplicationMinimizer.Caption=Application Minimizer
+tsAdditional.Caption=Additional
+
+miFile.Caption=&File
+miActions.Caption=&Actions
+miHelp.Caption=&Help
+
+aShowMainWindow.Caption=Show/Hide
+
+lblLanguage.Caption=&Language
+
+aHideInactiveIcon.Caption=Hide icon if inactive (not animated)
+aHideIcon.Caption=Hide icon
+aShowIcon.Caption=Show icon
+aTMVHideIcon.Caption=Hide icon from tray menu
+aTMVShowIcon.Caption=Show icon in tray menu
+aMarkAsOld.Caption=Mark as "Old"
+aMarkAsNew.Caption=Mark as "New"
+aMoveUp.Caption=Move icon up
+aMoveDown.Caption=Move icon down
+aAlwaysShowInMenu.Caption=Always show in menu
+aIdByClassName.Caption=Identify by WndClass
+
+chbxHideTrayIcon.Caption=Hide the system tray icon
+chbxLoadAtStartup.Caption=Run at the Windows startup
+chbxSwapMouseButtons.Caption=Swap mouse &buttons
+chbxSafeMode.Caption=S&witch PSTF to the 'Safe' mode
+chbxSaveConfigForAllUsers.Caption=&Save settings for All users
+chbxAutoRestoreIcons.Caption=Auto restore icons after Explorer crashes
+chbxHideStartButton.Caption=Hide the "Start" button
+
+grbxTILOptions.Caption=Tray I&cons list
+lblInactiveInterval.Caption=&Inactive interval (ms)
+lblShowMainWindow.Caption=Show main &window
+lblShowTrayMenu.Caption=Show the system tray menu
+chbxAddToBegin.Caption=Add &new icon to top
+chbxReverIconsMenu.Caption=Reverse order of the tray icons menu
+chbxShowNameOfExecutable.Caption=Show name of &executable
+lblRecentlyUsedInterval.Caption=Hide tray icons if not used (days)
+chbxHideLongTimeNotUsed.Caption=Hide seldom used tray icons
+chbxShowOwnTrayIcon.Caption=Show own tray icon in Tray Icons List
+
+grbxOther.Caption=Other
+lblTaskbarTransparency.Caption=Task&bar transparency
+lblMainWindowTransparency.Caption=Main w&indow transparency
+
+grbxSecurity.Caption=&Security
+chbxEnableProtection.Caption=&Enable the system tray protection
+chbxProtectTrayMenu.Caption=&Protect system tray menu
+btnChangePassword.Caption=&Change password...
+
+grbxAppMinimizer.Caption=.    Application minimiz&er
+chbxMinimizeToTray.Caption=&Enable Application Minimizer
+lblMinimizeToTray.Caption=&Minimize application to system tray
+lblRestoreFromTray.Caption=&Restore last minimized application from tray
+
+grbxTrayIconsSorter.Caption=Tra&y icons sorter
+chbxAutosortTrayIcons.Caption=A&utosort icons in the system tray
+chbxRevertTray.Caption=Re&verse order of system tray icons
+lblSortTrayIcons.Caption=Sort system tray icons
+
+btnOrder.Caption=Or&der Now!
+btnRegister.Caption=&Enter key...
+
+aRestoreAllMinimized.Caption=Restore all minimized applications
+aSortTrayIcons.Caption=Sort tray icons
+grbxTrayIconsRestore.Caption=Tray icons restore
+lblAutoRestoreInterval.Caption=Auto restore interval (ms)
+lblRestoreIcons.Caption=Restore system tray icons
+tsAppMinimizer.Caption=&Application Minimizer
+
+aRefreshAppLst.Caption=Refresh applications list
+aMinimizeToTray.Caption=Minimize to tray
+aRestoreFromTray.Caption=Restore from tray
+aRestoreAllFromTray.Caption=Restore all from tray
+
+aWndMinToTray.Caption=Minimize to tray
+aWndStayOnTop.Caption=Stay on top
+
+miAdditional.Caption=Additional
+
+aTrayIconProperties.Caption=Properties
+
+
+[TfrmEnterPassword]
+lblPassword.Caption=&Password
+btnCancel.Caption=Cancel
+
+[TfrmChangePassword]
+Caption=Set password
+lblOldPassword.Caption=&Old password
+lblPassword.Caption=&New password
+lblPassword1.Caption=New password (&again)
+btnCancel.Caption=Cancel
+
+[TfrmTrayIconProperties]
+Caption=Properties
+lblProperties.Caption=Properties
+lblIconID.Caption=ID
+lblWndHandle.Caption=Window Handle
+lblWndClass.Caption=Window Class
+lblTooltip.Caption=Tooltip
+lblApplication.Caption=Application
+lblApplicationPath.Caption=Application Path
+lblOptions.Caption=Options
+chbxUseAlternativeIcon.Caption=Use Alternative Icon
+btnSelectIcon.Caption=Select Icon...
+lblShowIcon.Caption=Show Icon
+lblShowIconInMenu.Caption=PS Tray Factory Tray Menu
+grbxTrayIconOptions.Caption=System tray icon visibility
+aOpenFolder.Caption=Open Folder
+btnApply.Caption=Apply
+btnOK.Caption=&OK
+btnCancel.Caption=&Cancel
+
+[TfrmPSTFAbout]
+Caption=About
+lblRegisteredToTitle.Caption=Registered to:
+btnOrder.Caption=Order...
+btnRegister.Caption=Register...
+lblHomePageTitle.Caption=Home page:
+lblSupportTitle.Caption=Support:
+btnOK.Caption=OK
+
+[Tips]
+
+
+[Other]
+ConfirmExit=Do you want exit?
+NoTitle=<no title>
+lblRegName.Caption=Name
+lblRegKey.Caption=Key
+lblPurchase.Caption=Purchase registration key
+ExpiredMsg=Trial period expired. Please register.
+RegDlgCaption=PS Tray Factory registration.
+
+btnPaste.Caption=&Paste
+
+OperModeChanged=The operating mode was changed. Need reboot.
+InvalidPassword=Invalid password
+
+iaShowHide=Show/Hide
+iaLButtonClick=Left button click
+iaRButtonClick=Right button click
+iaLButtonDoubleClick=Left button double click
+iaRButtonDoubleClick=Right button double click
+
+aTMVDefaultShow=Default (show icon in tray menu)
+aTMVDefaultHide=Default (hide icon from tray menu)
+aTMVDefaultShowShort=Default (show icon)
+aTMVDefaultHideShort=Default (hide icon)
+
+chAppMinWindowTitle=Window title
+chAppMinFileName=File name

@@ -1,0 +1,195 @@
+[Header]
+
+Language=French
+Author=A. JACQUES
+Version=PS Tray Factory 2.5
+
+[TfrmPstrayFMain]
+
+tsTrayIconManager.Caption=&Liste des Icônes
+tsOptions.Caption=&Options
+tsOpMain.Caption=&Général
+tsOpAdditional.Caption=&Autres
+
+aExit.Caption=&Fermer
+aRestoreIcons.Caption=&Restoration des icônes
+aHelp.Caption=Ai&de
+aGettingStarted.Caption=Getting started...
+aHide.Caption=&Cacher
+lblIconHotkey.Caption=Hotkey
+lblIconAction.Caption=Action
+
+aOrder.Caption=Commander maintenant!
+aRegister.Caption=Touche &Enter...
+aAbout.Caption=Au sujet de...
+aSaveSettings.Caption=Arrangements De secours...
+aRestoreSettings.Caption=Arrangements De Restauration...
+aPSTFHomePage.Caption=Home Page de PS Tray Factory de visite
+grbxTrayIconOptions.Caption=Visibilité d'system tray icône
+lblShowIcon.Caption=System tray
+lblShowIconInMenu.Caption=Tray menu de PS Tray Factory
+grbxPopupMenuOnMouseHover.Caption=.      &Menu automatique sur le vol plané de souris
+lblIntervalOnMouseHover.Caption=&Intervalle (ms)
+lblEnableProtection.Caption=Permettez la protection du system tray
+
+tsGeneral.Caption=Général
+tsTrayIconsList.Caption=&Liste des Icônes
+tsTrayIconsRestore.Caption=Restoration des icônes
+tsTrayIconsSorter.Caption=Triage des icônes
+tsTrayProtection.Caption=Protection du system tray
+tsApplicationMinimizer.Caption=Réducteur d'Applications
+tsAdditional.Caption=Autres
+
+miFile.Caption=&Dossier
+miActions.Caption=&Actions
+miHelp.Caption=&Aide
+
+aShowMainWindow.Caption=Montrer/Cacher
+
+lblLanguage.Caption=Langage
+
+aHideInactiveIcon.Caption=Cacher l'icône, si inactive
+aHideIcon.Caption=Cacher l'icône
+aShowIcon.Caption=Montrer l'icône
+aTMVHideIcon.Caption=Cacher l'icône de tray menu
+aTMVShowIcon.Caption=Montrer l'icône dans tray menu
+aMarkAsOld.Caption=Marquer comme "Vieille"
+aMarkAsNew.Caption=Marquer comme "Nouvelle"
+aMoveUp.Caption=Monter l'icône
+aMoveDown.Caption=Descendre l'icône
+aAlwaysShowInMenu.Caption=Toujours visible dans le menu
+aIdByClassName.Caption=Identifié par WndClass
+
+chbxHideTrayIcon.Caption=Cacher &Tray Icon
+chbxLoadAtStartup.Caption=C&harger au démarrage
+chbxSwapMouseButtons.Caption=Inverser les &boutons de la souris
+chbxSafeMode.Caption=&Mode protégé
+chbxSaveConfigForAllUsers.Caption=&Sauvegarder pour tous
+chbxHideStartButton.Caption=Cacher le bo&uton Démarrer
+
+grbxTILOptions.Caption=Liste des options des icônes
+lblInactiveInterval.Caption=Intervalle d'inactivité (ms)
+lblShowMainWindow.Caption=Ouvrir Tray Icon
+lblShowTrayMenu.Caption=Montrer le menu
+chbxAddToBegin.Caption=&Nouvelles icônes en haut
+chbxReverIconsMenu.Caption=&Inverse le menu des icônes
+chbxShowNameOfExecutable.Caption=A&ffiche le nom des exécutables
+lblRecentlyUsedInterval.Caption=Non utilisées depuis (# jours)
+chbxHideLongTimeNotUsed.Caption=Cach&e les icônes non utilisées
+
+grbxOther.Caption=Autres options
+lblTaskbarTransparency.Caption=Barre de Tâches visible (±)
+lblMainWindowTransparency.Caption=Transparence de ce menu (±)
+
+grbxSecurity.Caption=Sécurité
+chbxEnableProtection.Caption=Activer la prot&ection
+chbxProtectTrayMenu.Caption=&Protéger tray menu
+btnChangePassword.Caption=Cha&nger le mot de passe...
+
+grbxAppMinimizer.Caption=.    Réducteur d'Applications
+lblMinimizeToTray.Caption=Réduire
+lblRestoreFromTray.Caption=Agrandir
+
+grbxTrayIconsSorter.Caption=Options de tri
+chbxAutosortTrayIcons.Caption=Tri A&utomatique
+chbxRevertTray.Caption=Tri in&versé
+lblSortTrayIcons.Caption=Triage des icônes
+
+btnOrder.Caption=Commander maintenant!
+btnRegister.Caption=Touche &Enter...
+
+aRestoreAllMinimized.Caption=Agrandir tous au minimum
+aSortTrayIcons.Caption=Triage des icônes
+grbxTrayIconsRestore.Caption=Restoration des icônes
+lblAutoRestoreInterval.Caption=Intervalle de automatique restauration (ms)
+lblRestoreIcons.Caption=Restoration des icônes
+tsAppMinimizer.Caption=Réducteur d'Applications
+
+aRefreshAppLst.Caption=Régénérez la liste d'applications
+aMinimizeToTray.Caption=Réduire
+aRestoreFromTray.Caption=Agrandir
+aRestoreAllFromTray.Caption=Agrandir tous
+
+aWndMinToTray.Caption=Réduire
+aWndStayOnTop.Caption=Séjour sur le dessus
+
+miAdditional.Caption=Additionnel
+
+aTrayIconProperties.Caption=Propriétés
+
+
+[TfrmEnterPassword]
+lblPassword.Caption=Mot de &Passe
+btnCancel.Caption=&Annuler
+
+[TfrmChangePassword]
+Caption=Set password
+lblOldPassword.Caption=&Ancien mot de passe
+lblPassword.Caption=&Nouveau mot de passe
+lblPassword1.Caption=Confirmer le nouveau mot de passe
+btnCancel.Caption=Annuler
+
+
+[TfrmTrayIconProperties]
+Caption=Propriétés
+lblProperties.Caption=Propriétés
+lblIconID.Caption=ID
+lblWndHandle.Caption=Poignée De Fenêtre
+lblWndClass.Caption=Classe De Fenêtre
+lblTooltip.Caption=Pointe
+lblApplication.Caption=Application
+lblApplicationPath.Caption=Chemin D'Application
+lblOptions.Caption=Options
+chbxUseAlternativeIcon.Caption=Employez L'Icône Alternative
+btnSelectIcon.Caption=Choisissez L'Icône...
+lblShowIcon.Caption=Montrer l'icône
+lblShowIconInMenu.Caption=Tray menu de PS Tray Factory
+grbxTrayIconOptions.Caption=Visibilité d'system tray icône
+aOpenFolder.Caption=Ouvrez La Chemise
+btnApply.Caption=Appliquez
+btnOK.Caption=&OK
+btnCancel.Caption=&Annuler
+
+[TfrmPSTFAbout]
+Caption=Au sujet de
+lblRegisteredToTitle.Caption=Nom:
+btnOrder.Caption=Commander maintenant!
+btnRegister.Caption=Touche Enter...
+lblHomePageTitle.Caption=Home Page:
+lblSupportTitle.Caption=Appui:
+btnOK.Caption=OK
+
+[Tips]
+
+
+[Other]
+ConfirmExit=Fermer PS Tray Factory?
+NoTitle=<Aucun titre>
+lblRegName.Caption=Nom
+lblRegKey.Caption=Code d'enregistrement
+lblPurchase.Caption=Achetez votre code d'enregistrement
+ExpiredMsg=Période d'essai terminée. S.V.P. enregistrez-vous.
+RegDlgCaption=Enregistrement de PS Tray Factory.
+
+btnPaste.Caption=Coller
+
+OperModeChanged=Le mode d'opération a été changé. Vous devrez redémarrer.
+InvalidPassword=Ancien mot de passe invalide
+
+iaShowHide=Afficher/Cacher
+iaLButtonClick=Souris bouton gauche
+iaRButtonClick=Souris bouton droit
+iaLButtonDoubleClick=Double clic bouton gauche
+iaRButtonDoubleClick=Double clic bouton droit
+
+aTMVDefaultShow=Défaut (montrer l'icône dans tray menu)
+aTMVDefaultHide=Défaut (cacher l'icône de tray menu)
+aTMVDefaultShowShort=Défaut (montrer l'icône)
+aTMVDefaultHideShort=Défaut (cacher l'icône)
+
+
+chAppMinWindowTitle=Légende de fenêtre
+chAppMinFileName=Nom de fichier
+
+
+

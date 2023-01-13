@@ -1,0 +1,183 @@
+Options[Header]
+
+Language=Deutsch
+Author=Thomas Wolf (corrected by Gerhard Wolf)
+Version=PS Tray Factory 3.0
+
+[TfrmPstrayFMain]
+
+tsTrayIconManager.Caption=System-&Tray-Icon Liste
+tsOptions.Caption=&Optionen
+tsOpMain.Caption=&Allgemein
+tsOpAdditional.Caption=&Sonstiges
+
+aExit.Caption=B&eenden
+aRestoreIcons.Caption=System-Tray-&Icon wiederherstellen
+aHelp.Caption=&Hilfe
+aGettingStarted=Programmstart...
+aHide.Caption=Verbergen
+lblIconHotkey.Caption=Hotkey
+lblIconAction.Caption=Action
+
+aOrder.Caption=Jetzt &bestellen!
+aRegister.Caption=Schlüssel...
+aAbout.Caption=Über...
+aSaveSettings.Caption=Aushilfseinstellungen...
+aRestoreSettings.Caption=Wiederherstellung Einstellungen...
+aPSTFHomePage.Caption=Besuchen Sie die PS Tray Factory-Webseite
+grbxTrayIconOptions.Caption=System-Tray-Icon Sicht
+lblShowIcon.Caption=System Tray
+lblShowIconInMenu.Caption=PS Tray Factory Tray-menü
+grbxPopupMenuOnMouseHover.Caption=.      &Popup Menü auf Mäuseschwebeflug
+lblIntervalOnMouseHover.Caption=&Intervall (ms)
+lblEnableProtection.Caption=Schutz &aktivieren
+
+tsGeneral.Caption=Allgemein
+tsTrayIconsList.Caption=System-&Tray-Icon Liste
+tsTrayIconsRestore.Caption=System-Tray-Icon wiederherstellen
+tsTrayIconsSorter.Caption=System-Tray-Icon-Sortierung
+tsTrayProtection.Caption=System-Tray Schutz
+tsApplicationMinimizer.Caption=Minimieren von Anwendungen
+tsAdditional.Caption=Sonstiges
+
+miFile.Caption=&Datei
+miActions.Caption=&Tätigkeiten
+miHelp.Caption=&Hilfe
+
+aShowMainWindow.Caption=Anzeigen/verbergen
+
+lblLanguage.Caption=Sprache
+
+aHideInactiveIcon.Caption=Icon verbergen, falls inaktiv
+aHideIcon.Caption=Icon verbergen
+aShowIcon.Caption=Icon anzeigen
+aTMVHideIcon.Caption=Entferne Icon vom Tray-menü
+aTMVShowIcon.Caption=Zeigen Sie Icon im Tray-menü
+aMarkAsOld.Caption=Markiere als "Alt"
+aMarkAsNew.Caption=Markiere als "Neu"
+aMoveUp.Caption=nach oben
+aMoveDown.Caption=nach unten
+aAlwaysShowInMenu.Caption=Immer anzeigen im Menü
+aIdByClassName.Caption=Via Fensterklasse identifizieren
+chbxHideTrayIcon.Caption=Tray-Icon verbergen
+chbxLoadAtStartup.Caption=Automatisch starten
+chbxSwapMouseButtons.Caption=Tausche Maus&tasten
+chbxSafeMode.Caption=Sicherer Modus
+chbxSaveConfigForAllUsers.Caption=Für alle Anwender speichern
+chbxAutoRestoreIcons.Caption=Icons automatisch wiederherstellen
+chbxHideStartButton.Caption=Startknopf verbergen
+grbxTILOptions.Caption=Tray-Icon Liste
+lblInactiveInterval.Caption=Inaktivitäts-Intervall (ms):
+lblShowMainWindow.Caption=Zeige Hauptfenster:
+lblShowTrayMenu.Caption=Zeige Traymenü:
+chbxAddToBegin.Caption=Neue Icons oben einfügen
+chbxReverIconsMenu.Caption=Icon-Menü umkehren
+chbxShowNameOfExecutable.Caption=Programmnamen zeigen
+lblRecentlyUsedInterval.Caption=Verberge nach Tagen:
+chbxHideLongTimeNotUsed.Caption=Verberge seltene Icons
+chbxShowOwnTrayIcon.Caption=Show own tray icon in Tray Icons List
+
+grbxOther.Caption=Anderes
+lblTaskbarTransparency.Caption=Taskbar-Transparenz:
+lblMainWindowTransparency.Caption=Hauptfenster-Transparenz:
+grbxSecurity.Caption=&Sicherheit
+chbxEnableProtection.Caption=Schutz &aktivieren
+chbxProtectTrayMenu.Caption=Traymenü &schützen
+btnChangePassword.Caption=&Kennwort ändern...
+grbxAppMinimizer.Caption=.    Minimieren von &Anwendungen
+chbxMinimizeToTray.Caption=A&ktivieren
+lblMinimizeToTray.Caption=In Tray &minimieren:
+lblRestoreFromTray.Caption=Aus Tray &wiederherstellen:
+grbxTrayIconsSorter.Caption=Tra&y-Icon-Sortierung
+chbxAutosortTrayIcons.Caption=A&utomatisch sortieren
+chbxRevertTray.Caption=Tray &wiederherstellen
+lblSortTrayIcons.Caption=Tray-Icons so&rtieren
+btnOrder.Caption=Jetzt &bestellen!
+btnRegister.Caption=Schlüssel &eingeben...
+aRestoreAllMinimized.Caption=Alle minimierten wiederherstellen
+aSortTrayIcons.Caption=Tray-Icons so&rtieren
+grbxTrayIconsRestore.Caption=&Icons wiederherstellen
+lblAutoRestoreInterval.Caption=Automatisch wiederherstellen Intervall (ms)
+lblRestoreIcons.Caption=&Icons wiederherstellen
+tsAppMinimizer.Caption=Minimieren von &Anwendungen
+aRefreshAppLst.Caption=Liste aktualisieren
+aMinimizeToTray.Caption=In Tray &minimieren
+aRestoreFromTray.Caption=Aus Tray &wiederherstellen
+aRestoreAllFromTray.Caption=Aus Tray wiederherstellen alle
+aWndMinToTray.Caption=In Tray &minimieren
+aWndStayOnTop.Caption=Immer im Vordergrund
+miAdditional.Caption=Zusätzlich
+
+aTrayIconProperties.Caption=Eigenschaften
+
+[TfrmEnterPassword]
+lblPassword.Caption=&Kennwort
+btnCancel.Caption=Abbrechen
+
+[TfrmChangePassword]
+Caption=Set password
+lblOldPassword.Caption=&Altes Kennwort:
+lblPassword.Caption=&Neues Kennwort:
+lblPassword1.Caption=Neues Kennwort (&wiederholen):
+btnCancel.Caption=Abbrechen
+
+[TfrmTrayIconProperties]
+Caption=Eigenschaften
+lblProperties.Caption=Eigenschaften
+lblIconID.Caption=ID
+lblWndHandle.Caption=Fenster-Handhabung
+lblWndClass.Caption=Fenster-Kategorie
+lblTooltip.Caption=Werkzeughinweis
+lblApplication.Caption=Anwendung
+lblApplicationPath.Caption=Anwendungspfad
+lblOptions.Caption=Optionen
+chbxUseAlternativeIcon.Caption=Benutzen Sie alternative Icons
+btnSelectIcon.Caption=Wählen Sie Icons Vor...
+lblShowIcon.Caption=Zeigen Sie Icons
+lblShowIconInMenu.Caption=PS Tray Factory Tray-menü
+grbxTrayIconOptions.Caption=System-Tray-Icon sichtbar
+aOpenFolder.Caption=Ordner öffnen
+btnApply.Caption=Anwendungen
+btnOK.Caption=&OK
+btnCancel.Caption=&Abbrechen
+
+[TfrmPSTFAbout]
+Caption=Über
+lblRegisteredToTitle.Caption=Name:
+btnOrder.Caption=Jetzt &bestellen!
+btnRegister.Caption=Schlüssel...
+lblHomePageTitle.Caption=Home page:
+lblSupportTitle.Caption=Unterstützung:
+btnOK.Caption=OK
+
+
+[Tips]
+
+
+[Other]
+ConfirmExit=Wollen Sie wirklich beenden?
+NoTitle=<kein Titel>
+lblRegName.Caption=Name
+lblRegKey.Caption=Schlüssel
+lblPurchase.Caption=Registrierungs-Code bestellen
+ExpiredMsg=Testphase abgelaufen. Bitte registrieren Sie sich.
+RegDlgCaption=PS Tray Factory Registrierung
+
+btnPaste.Caption=&Einfügen
+
+OperModeChanged=Betriebsart wurde geändert. Starten Sie bitte Windows neu.
+InvalidPassword=Ungültiges Passwort
+
+iaShowHide=Anzeigen/verstecken
+iaLButtonClick=Mausklick links
+iaRButtonClick=Mausklick rechts
+iaLButtonDoubleClick=Doppelklick links
+iaRButtonDoubleClick=Doppelklick rechts
+
+aTMVDefaultShow=Rückstellung (Zeigen Sie Icon im Tray-menü)
+aTMVDefaultHide=Rückstellung (Entferne Icon vom Tray-Menü)
+aTMVDefaultShowShort=Rückstellung (Zeigen Sie Icon)
+aTMVDefaultHideShort=Rückstellung (Entferne Icon)
+
+chAppMinWindowTitle=Fenstertitel
+chAppMinFileName=Dateiname
