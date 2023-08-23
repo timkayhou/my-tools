@@ -2,13 +2,16 @@
 // 移植自 https://github.com/libretro/common-shaders/blob/master/windowed/shaders/lanczos6.cg
 
 //!MAGPIE EFFECT
-//!VERSION 2
+//!VERSION 3
+//!GENERIC_DOWNSCALER
 
 
 //!PARAMETER
+//!LABEL Anti-ringing Strength
 //!DEFAULT 0.5
 //!MIN 0
 //!MAX 1
+//!STEP 0.01
 float ARStrength;
 
 //!TEXTURE

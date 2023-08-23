@@ -1,16 +1,51 @@
-0|AppUserModelId
+0|.cda
+0|.DAT
+0|.eml
+0|.hta
+0|.htc
+0|.manifest
+0|.migtable
+0|.nws
+0|.pcb
+0|.sfcache
+0|.slupkg-ms
+0|.WebAllowBlockList
+0|.wll
+0|.WMD
+0|.WMS
+0|.wmz
+0|AppID\Acrobat.exe
+0|Applications\WINWORD.EXE\TaskbarExceptionsIcons
 0|CEIPLuaElevationHelper
+0|CLSID
+0|CLSID\{08EE6878-C867-4D8C-A360-FED4B6501D54}
+0|CLSID\{300165D9-44B1-4C7A-AD58-4A9E7200E2E8}\LocalServer32
+0|CLSID\{32be5ed2-5c86-480f-a914-0ff8885a1b3f}\ToolboxBitmap32
+0|CLSID\{3be9934e-4d1f-4e31-8bc3-8efc710ee0f2}
+0|CLSID\{655807c3-deb2-4db5-a85a-383b412d4340}\InprocServer32
+0|CLSID\{7EA9A8FA-F5D2-49E1-99E8-C26EE07FCE14}
+0|CLSID\{853c9738-9e98-45af-aef4-dc0c6237b388}
+0|CLSID\{B977CB2D-EC6E-4A8F-BFFE-D18682BB0D52}\InProcServer32
+0|CLSID\{C523F39F-9C83-11D3-9094-00104BD0D535}
+0|CLSID\{DA4E3DA0-D07D-11d0-BD50-00A0C911CE86}
+0|CLSID\{DA4E3DA0-D07D-11d0-BD50-00A0C911CE86}\Instance\{CC7BFB41-F175-11d1-A392-00E0291F3959}
+0|CLSID\{DFEAF541-F3E1-4c24-ACAC-99C30715084A}
+0|CLSID\{f744e496-1b5a-489e-81dc-fbd7ac6298a8}
+0|CLSID\{f744e496-1b5a-489e-81dc-fbd7ac6298a8}\InprocServer32
 0|DiskManagement.Connection
+0|ehGLID.GLIDPlugInUDCR
+0|ehGLID.GLIDPlugInUDCR.1
+0|eHome.RecovRecoveryTaskMonitoreryTasks
 0|ERCLuaElevationHelper
 0|ERCLuaSupport.1
-0|Extensions\ContractId
 0|Game
-0|Installer
-0|Local Settings
-0|LocalPathSearchProvider
-0|MIME
+0|HeaderFooter.HeaderFooter.1
+0|Interface\{062c7f3f-5d6c-426b-95d9-69dddcf524ad}
+0|Interface\{3581572a-9b9e-4500-bcad-5bb5a737b0e2}
+0|Interface\{435eb1b8-b681-4569-b862-551e13764315}
+0|Interface\{5a36a745-8357-49ff-92ee-9a5bfe043496}
+0|Interface\{5c60f565-4f7f-4894-a9c8-1c4cad355f16}
 0|NetProjW.Elev.1
-0|Record
 0|Scriptlet.Behavior
 0|Scriptlet.HiFiTimer
 0|Scriptlet.SvrOm
@@ -22,148 +57,48 @@
 0|Search.FilesystemBackupProvider.1
 0|Search.Indexer.1
 0|Search.NlCiIndex.1
-0|Software\Microsoft\Windows
 0|SpeechUX.SpeechMediaPlayerStringCollection.1
 0|STSInproc.SpeechPropertyStore.1
-0|SystemSettings
-0|Unmarshalers
-1|Software\Classes\Installer
-1|Software\Classes\Local Settings
 1|Software\JavaSoft
-1|Software\Microsoft\Internet Explorer\
-1|SOFTWARE\Microsoft\Internet Explorer\LowRegistry
-1|Software\Microsoft\Internet Explorer\MAO Settings
-1|Software\Microsoft\Office
-1|Software\Microsoft\Speech_OneCore
-1|Software\Microsoft\SystemCertificates
-1|Software\Microsoft\Windows Live
+1|Software\Microsoft\Office\10.0\Outlook\Journal
+1|Software\Microsoft\Office\11.0\Outlook\Journal
+1|Software\Microsoft\Office\14.0\Excel\Security\Trusted Locations\Location1
+1|Software\Microsoft\Office\14.0\Outlook\Journal
+1|Software\Microsoft\Office\14.0\Word\Security\Trusted Locations\Location2
 1|Software\Microsoft\Windows NT\CurrentVersion\AeDebug
-1|Software\Microsoft\Windows\CurrentVersion\Authentication
-1|Software\Microsoft\Windows\CurrentVersion\DeviceAccess
-1|Software\Microsoft\Windows\CurrentVersion\Explorer\CD Burning
 1|Software\Microsoft\Windows\CurrentVersion\Explorer\FileExts\DDECache
 1|Software\Microsoft\Windows\CurrentVersion\Explorer\FileExts\OpenWithList
 1|Software\Microsoft\Windows\CurrentVersion\Explorer\Shell Folders
-1|Software\Microsoft\Windows\CurrentVersion\MCT
 1|Software\Microsoft\Windows\CurrentVersion\Media Center\MRU
-1|Software\Microsoft\Windows\CurrentVersion\PushNotifications
-1|Software\Policies\Microsoft\Office
-2|SOFTWARE\Classes\Installer
-2|SOFTWARE\Classes\Local Settings
-2|Software\Intel\Wireless
-2|Software\Microsoft\.NETFramework
-2|SOFTWARE\Microsoft\Active Setup
-2|SOFTWARE\Microsoft\Advanced INF Setup
-2|SOFTWARE\Microsoft\Cryptography
-2|Software\Microsoft\CTF
-2|Software\Microsoft\Device Association Framework
-2|Software\Microsoft\DiskSnapshot
-2|Software\Microsoft\FilterDS
+1|Software\Policies\Microsoft\Office\14.0\outlook
+2|SOFTWARE\Classes\CLSID\{32be5ed2-5c86-480f-a914-0ff8885a1b3f}\ToolboxBitmap32
+2|SOFTWARE\Classes\CLSID\{7EA9A8FA-F5D2-49E1-99E8-C26EE07FCE14}
+2|SOFTWARE\Classes\CLSID\{B977CB2D-EC6E-4A8F-BFFE-D18682BB0D52}\InProcServer32
+2|SOFTWARE\Classes\Interface\{C16E1104-4D9E-4EA0-8904-E7694ECA12B0}
+2|SOFTWARE\Clients\JavaVM\MSJavaVM\InstallInfo
+2|SOFTWARE\Hewlett-Packard\DigitalImaging
+2|SOFTWARE\Hewlett-Packard\DigitalImaging\CtxMgr\Strings
+2|SOFTWARE\lexmark\MarkVision\LexBCE\Debug Options
+2|SOFTWARE\Microsoft\Active Setup\Installed Components\{EF289A85-8E57-408d-BE47-73B55609861A}
 2|Software\Microsoft\Fusion
 2|SOFTWARE\Microsoft\IMAPI\StashInfo
-2|Software\Microsoft\InProcLogger
-2|Software\Microsoft\Input\Locales
 2|SOFTWARE\Microsoft\Internet Explorer\MAIN
-2|Software\Microsoft\MediaPlayer\Battery
-2|SOFTWARE\Microsoft\MMC\SnapIns
-2|Software\Microsoft\Multimedia\TV
-2|Software\Microsoft\Multivariant
-2|SOFTWARE\Microsoft\Office
-2|Software\Microsoft\PointOfService
-2|Software\Microsoft\PolicyManager
-2|SOFTWARE\Microsoft\PowerShell
-2|Software\Microsoft\Provisioning
-2|Software\Microsoft\SecurityManager
-2|Software\Microsoft\Speech
-2|Software\Microsoft\Speech_OneCore
-2|Software\Microsoft\SystemCertificates
-2|Software\Microsoft\SystemSettings
-2|SOFTWARE\Microsoft\TPG
-2|SOFTWARE\Microsoft\WBEM\Tracing\WMI
+2|SOFTWARE\Microsoft\Internet Explorer\MAIN\FeatureControl
+2|SOFTWARE\Microsoft\MMC\SnapIns\FX:{a1bc4ecb-66b2-44e8-9915-be02e84438ba}
+2|SOFTWARE\Microsoft\Office\14.0\User Settings\Excel_Core\Create\Software\Microsoft\Office\14.0\Excel\Security\Trusted Locations\Location1
+2|SOFTWARE\Microsoft\Office\14.0\User Settings\Word_Core\Create\Software\Microsoft\Office\14.0\Word\Security\Trusted Locations\Location2
+2|SOFTWARE\Microsoft\PowerShell\1\PowerShellEngine
+2|SOFTWARE\Microsoft\TPG\InputPersonalization\AnalysisTokens\4103\IPS
+2|SOFTWARE\Microsoft\TPG\System Recognizers\{6D3087D7-61D2-495f-9293-5B7B1C3FCEAB}
+2|SOFTWARE\Microsoft\TPG\System Recognizers\{6D3087D7-61D2-495f-9293-5B7B1C3FCEAB}\Resources
 2|SOFTWARE\Microsoft\WBEM\WDM
 2|SOFTWARE\Microsoft\Windows NT\CurrentVersion\AeDebug
-2|SOFTWARE\Microsoft\Windows NT\CurrentVersion\APITracing
-2|Software\Microsoft\Windows NT\CurrentVersion\EMDMgmt
-2|Software\Microsoft\Windows NT\CurrentVersion\NetworkList
-2|Software\Microsoft\Windows NT\CurrentVersion\Perflib
-2|Software\Microsoft\Windows NT\CurrentVersion\ProfileList
-2|SOFTWARE\Microsoft\Windows NT\CurrentVersion\Schedule
-2|Software\Microsoft\Windows NT\CurrentVersion\SecEdit
-2|Software\Microsoft\Windows NT\CurrentVersion\SoftwareProtectionPlatform
-2|Software\Microsoft\Windows NT\CurrentVersion\Time Zones
-2|Software\Microsoft\Windows NT\CurrentVersion\WinSAT
-2|SOFTWARE\Microsoft\Windows Search
-2|SOFTWARE\Microsoft\Windows\CurrentVersion\Appx
-2|Software\Microsoft\Windows\CurrentVersion\Component Based Servicing
-2|Software\Microsoft\Windows\CurrentVersion\DeviceAccess
-2|Software\Microsoft\Windows\CurrentVersion\Explorer\VolumeCaches
-2|Software\Microsoft\Windows\CurrentVersion\IME
-2|Software\Microsoft\Windows\CurrentVersion\Installer\Userdata
-2|Software\Microsoft\Windows\CurrentVersion\Internet Settings\5.0\Cache
-2|Software\Microsoft\Windows\CurrentVersion\Internet Settings\Cache
-2|Software\Microsoft\Windows\CurrentVersion\NetworkServiceTriggers
-2|Software\Microsoft\Windows\CurrentVersion\OOBE
-2|SOFTWARE\Microsoft\Windows\CurrentVersion\Parental Controls
+2|SOFTWARE\Microsoft\Windows Search\Gather\Windows\SystemIndex
 2|Software\Microsoft\Windows\CurrentVersion\Policies
-2|SOFTWARE\Microsoft\Windows\CurrentVersion\RenameFiles
-2|Software\Microsoft\Windows\CurrentVersion\Setup
-2|SOFTWARE\Microsoft\Windows\CurrentVersion\SideBySide
-2|Software\Microsoft\Windows\CurrentVersion\SystemProtectedUserData
-2|Software\Microsoft\Windows\CurrentVersion\Uninstall
-2|Software\Microsoft\Windows\CurrentVersion\WindowsUpdate
-2|SOFTWARE\Microsoft\Windows\CurrentVersion\WINEVT
-2|Software\Microsoft\Windows\CurrentVersion\XWizards
-2|SOFTWARE\Microsoft\WindowsRuntime
-2|Software\SRS Labs\APO
-2|Software\WOW6432Node\Intel\Wireless
-2|Software\WOW6432Node\LogMeInRescueCallingCard
-2|Software\WOW6432Node\McAfee
-2|Software\WOW6432Node\Microsoft\.NETFramework
-2|Software\Wow6432Node\Microsoft\Active Setup
-2|Software\Wow6432Node\Microsoft\Advanced INF Setup
-2|Software\Wow6432Node\Microsoft\Code Store Database
-2|Software\WOW6432Node\Microsoft\Cryptography
-2|Software\WOW6432Node\Microsoft\CTF
-2|Software\WOW6432Node\Microsoft\Device Association Framework
-2|Software\WOW6432Node\Microsoft\DirectPlay
-2|Software\WOW6432Node\Microsoft\Fusion
-2|Software\Wow6432Node\Microsoft\IMEJP
-2|Software\WOW6432Node\Microsoft\Input
-2|Software\WOW6432Node\Microsoft\Internet Explorer
-2|Software\WOW6432Node\Microsoft\MediaPlayer\Battery
-2|Software\WOW6432Node\Microsoft\MMC
-2|Software\WOW6432Node\Microsoft\PowerShell
-2|Software\WOW6432Node\Microsoft\SPEECH
-2|Software\WOW6432Node\Microsoft\Speech_OneCore
-2|Software\WOW6432Node\Microsoft\WBEM\Tracing\WMI
-2|Software\WOW6432Node\Microsoft\Windows NT\CurrentVersion\AeDebug
-2|Software\WOW6432Node\Microsoft\Windows NT\CurrentVersion\Perflib
-2|Software\Wow6432Node\Microsoft\Windows NT\CurrentVersion\ProfileList
-2|Software\Wow6432Node\Microsoft\Windows Search
-2|Software\WOW6432Node\Microsoft\Windows\CurrentVersion\Explorer\VolumeCaches
-2|Software\Wow6432Node\Microsoft\Windows\CurrentVersion\IME
-2|Software\Wow6432Node\Microsoft\Windows\CurrentVersion\Internet Settings\Cache
-2|Software\Wow6432Node\Microsoft\Windows\CurrentVersion\RenameFiles
-2|Software\WOW6432Node\Microsoft\Windows\CurrentVersion\Setup
-2|Software\WOW6432Node\Microsoft\Windows\CurrentVersion\Uninstall
-2|Software\WOW6432Node\Microsoft\Windows\CurrentVersion\XWizards
-2|Software\WOW6432Node\Microsoft\WindowsRuntime
-2|Software\Wow6432Node\Network Associates
-2|Software\WOW6432Node\ODBC
-2|SYSTEM\Setup
-3|.DEFAULT\Software\Microsoft\ADs
-3|.DEFAULT\Software\Microsoft\Windows Media\WMSDK
-3|.DEFAULT\Software\RegisteredApplications
-3|AppEvents
-3|Console\%SystemRoot%_System32_WindowsPowerShell_v1.0_powershell.exe
-3|Console\%SystemRoot%_SysWOW64_WindowsPowerShell_v1.0_powershell.exe
-3|Environment
-3|Local Settings
-3|Software\Microsoft\ADs
-3|SOFTWARE\Microsoft\Internet Explorer\International
-3|Software\Microsoft\Windows Media\WMSDK\Namespace
-3|Software\Microsoft\Windows NT\CurrentVersion\AeDebug
-3|Software\Microsoft\Windows\CurrentVersion\Explorer\CD Burning
-3|Software\Microsoft\Windows\CurrentVersion\Internet Settings\5.0\Cache
-3|Software\Policies\Microsoft\Office
-3|System\GameConfigStore
+3|S-1-5-19\Software\Microsoft\Windows\CurrentVersion\Explorer\Shell Folders
+3|S-1-5-20\Software\Microsoft\MediaPlayer\Setup\CreatedLinks
+3|S-1-5-20\Software\Microsoft\Windows\CurrentVersion\Explorer\Shell Folders
+3|S-1-5-21-2804541555-3115329147-3607654605-53603\Software\Microsoft\Office\14.0\Outlook\Journal
+3|S-1-5-21-2804541555-3115329147-3607654605-53603\Software\Microsoft\Office\14.0\Outlook\Journal
+3|S-1-5-21-2804541555-3115329147-3607654605-53603\Software\Microsoft\Windows NT\CurrentVersion\AeDebug
+3|S-1-5-21-2804541555-3115329147-3607654605-53603\Software\Policies\Microsoft\Office\14.0\outlook

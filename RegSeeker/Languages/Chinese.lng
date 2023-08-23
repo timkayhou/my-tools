@@ -1,21 +1,7 @@
 LanguageName=Chinese
 LanguageAuthor=Samoa  (http://www.myand.com _ Resource sharing Forums _ ĞÂÊÓÌı)
 [Buttons]
-btDeepClean=Deep cleaning
 btFind=ÔÚ×¢²á±íÖĞ²éÕÒ ...
-btAdv=Advanced Tools
-mnProcMon=Process Navigator
-mnFileProc=File / Process Monitor
-mnRepair=Repair...
-mnParentDir=Open Parent directory
-mnGotoParent=Go to Parent process
-mnAction=Action
-mnSwitch=Switch
-mnKill=Kill selected process
-mnKillDel=Kill process and Delete file
-mnExportProc=Export list
-btTasks=Tasks only
-btTop=Always on top
 btAppl=ÒÑ°²×°µÄÓ¦ÓÃÈí¼ş
 mnInvalidUninstall=ÎŞĞ§µÄ"Ìí¼Ó/ÒÆ³ı"ÏîÄ¿
 mnApplSettings=Èí¼şÉèÖÃ
@@ -23,7 +9,6 @@ mnServices=Services (Non-Microsoft)
 mnDrivers=Drivers (Non-Microsoft)
 mnTempFiles=Temporary files
 msgTempFiles=(Click here to configure)
-msgItems=Item(s)
 btStartup=ËæÏµÍ³Æô¶¯µÄÏîÄ¿
 btScheme=ÅäÉ«·½°¸
 btHistory=ÀúÊ·¼ÇÂ¼...
@@ -71,10 +56,36 @@ cValidLnk=¼ì²é¿ì½İ·½Ê½µÄÓĞĞ§ĞÔ
 ckBin=É¾³ıµ½»ØÊÕÕ¾
 iLNK=¿ì½İ·½Ê½(*.lnk)
 [Tweaks Panel]
-btRestoreDef=Restore default
+ckActiveDesktop=×¼Ğí»î¶¯×ÀÃæ
+ckDragFull=ÍÏ¶¯Õû¸ö´°¿Ú
+ckFontSmooth=Æ½»¬×ÖÌå
+ckWinAnim=´°¿Ú¶¯»­
+ckMaxIconCol=Ê¹ÓÃ×î´óÍ¼±êÉ«²Ê
+ckShortCut=ÔÚĞÂ½¨¿ì½İ·½Ê½ÉÏÏÔÊ¾"¿ì½İ·½Ê½¡°×ÖÑù
+ckSaveSettings=±£´æ×ÊÔ´¹ÜÀíÆ÷´°¿ÚÉèÖÃ
+ckNotePad=ÔÚÊó±êÓÒ¼üÖĞÌí¼Ó "ÓÃ¼ÇÊÂ±¾´ò¿ª"
+ckCopyTo=ÔÚÊó±êÓÒ¼üÖĞÌí¼Ó "¸´ÖÆµ½ .."
+ckMoveTo=ÔÚÊó±êÓÒ¼üÖĞÌí¼Ó "ÒÆ¶¯µ½ .."
+ckCMDprompt=ÔÚÊó±êÓÒ¼üÖĞÌí¼Ó "ÃüÁîÌáÊ¾·û"
+ckShortArrow=È¥µô¿ì½İ·½Ê½ÉÏµÄ¼ıÍ·
+tMenuDelay=¿ªÊ¼²Ëµ¥´ò¿ªÑÓÊ± (ºÁÃë) :
+tWheelLines=Êó±ê¹öÂÖÒ»´Î¹ö¶¯µÄĞĞÊı:
+tSizeIcon=Í¼±ê³ß´ç :
+tHttpSession=Í¬²½ http »á»°:
+ckAutoPlay=×Ô¶¯²¥·Å CD-ROM
+ckOutlook=Í£ÓÃ Outlook Express Æô¶¯»­Ãæ
+ckClearDocs=ÔÚÍË³öºóÇå¿Õ×î½üÎÄµµ
+ckNumlock=Æô¶¯Ê±¿ªÆô Numlock ¼ü(NT/2K/XP)
+ckTabCommand=Ê¹ÓÃ Tab ÓÃÓÚÃüÁîĞĞÍê³É
+ckCursorShadow=ÔÚÊó±êÖ¸ÕëÏÂÏÔÊ¾ÒõÓ° (2K/XP)
+ckMenuAnim=²Ëµ¥¶¯»­Ğ§¹û
+ckMenuFade=²Ëµ¥½¥±äĞ§¹û
+ckMenuSelFade=²Ëµ¥Ñ¡¶¨²¿·Ö½¥±äĞ§¹û
+ckTooltipAnim=¹¤¾ßÌáÊ¾¶¯»­Ğ§¹û
+ckTooltipFade=¹¤¾ßÌáÊ¾½¥±äĞ§¹û
+ckDropShadowXP=ÔÚ²Ëµ¥ÉÏÏÔÊ¾ÒõÓ° (XP)
+btRebuildIcon=ÖØ½¨Í¼±ê»º´æ
 btApplyChanges=Ó¦ÓÃ¸ü¸Ä !
-TweakError=Error applying tweak, please restart RegSeeker as Administrator
-TweakApplied=Tweak applied ! If you see no change, please logoff or restart your computer
 [History Menu]
 mnURL=Internet Explorer ·ÃÎÊ
 mnINDEXDAT=IE »º´æÀúÊ·(Index.dat)
@@ -181,36 +192,3 @@ msDis=Disabled
 msMan=Manual
 [ToBin]
 msToBin=Click OK to send to recycle bin<br>or Cancel to permanently delete the file(s)
-[Junk]
-btAutoSel=Auto-select
-[Chrome]
-msRunning=It is recommended to close Chrome before continuing !<br><br>Click OK to close Chrome or Cancel to continue without closing
-msExtens=Warning : Chrome extensions are synchronized !<br>Click ok to stop extensions synchronization and change status<br><br>Note : you can re-enable extension synchronization via Chrome parameters/Advanced synchronization parameters
-[ApplicationList]
-msRenameEntry=Rename entry
-msUninstall=Uninstall Application
-msNewname=New name :
-msBackupApp=Backup application registry
-msExportApplist=Export application list
-[bigButton]
-btApps=Applications and startup
-btRegistry=Registry
-btTools=Tools and system
-btPrivacy=Computer cleaning
-btAbout=About
-[Subtitles]
-subApp=Applications
-subStart=Startup
-subBrowser=Browser extensions
-subRegistry=Registry
-subFavorites=Favorites
-subTools=Tools
-subSystem=System information
-ckOtherDevice=View additional devices
-subFileClean=Junk files cleaning
-subRegClean=History cleaning
-[Drivers]
-ckBackDriver=Backup selected driver
-Wait=Veuillez patienter ...
-BackDriverDone=Le pilote a été sauvegardé !<br>Voulez-vous ouvrir le rapport ?
-FileMissing=Note : des fichiers n'ont pu être copiés !

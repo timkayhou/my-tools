@@ -10,23 +10,32 @@
 // B = 0.825 to get rid of dithering. Increase B to get a fine sharpness, though dithering returns.
 
 //!MAGPIE EFFECT
-//!VERSION 2
+//!VERSION 3
+//!GENERIC_DOWNSCALER
 
 
 //!PARAMETER
-//!DEFAULT 0.5
-//!MIN 1e-5
-float windowSinc;
-
-//!PARAMETER
-//!DEFAULT 0.825
-//!MIN 1e-5
-float sinc;
-
-//!PARAMETER
+//!LABEL Window Sinc Param
 //!DEFAULT 0.5
 //!MIN 0
 //!MAX 1
+//!STEP 0.01
+float windowSinc;
+
+//!PARAMETER
+//!LABEL Sinc Param
+//!DEFAULT 0.825
+//!MIN 0
+//!MAX 1
+//!STEP 0.01
+float sinc;
+
+//!PARAMETER
+//!LABEL Anti-ringing Strength
+//!DEFAULT 0.5
+//!MIN 0
+//!MAX 1
+//!STEP 0.1
 float ARStrength;
 
 //!TEXTURE

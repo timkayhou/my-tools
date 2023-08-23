@@ -1,18 +1,13 @@
+*.log
+*.xml
+*.cfg
 !*.exe
 !*.dll
 !*.pdb
-node_modules/
-.vs/
-balenaEtcher/
-nps/
-rats-search/
-RegistryWorkshop/
-*.log
-Calibre Portable/
+cpuz.ini
+node_modules
 CrystalDiskInfo/Smart
-CrystalDiskInfo/DiskInfo.ini
-Dism++/Config/Dism++.log
-ProduKey/ProduKey.cfg
-Dism++/Config/Config.ini
-RightMenuMgr/BackUp
-LocaleEmulator/LEVersion.xml
+RegistryWorkshop/RegWorkshop.ini
+RegistryWorkshop/undo.dat
+RegistryWorkshop/undo.idx
+RegSeeker/history.txt

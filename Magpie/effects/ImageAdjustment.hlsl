@@ -1,61 +1,89 @@
 // 移植自 https://github.com/libretro/slang-shaders/blob/3f67e1870dbd5be74ae2f09eaed0eeadce6abd15/misc/image-adjustment.slang
 
 //!MAGPIE EFFECT
-//!VERSION 2
+//!VERSION 3
 //!OUTPUT_WIDTH INPUT_WIDTH
 //!OUTPUT_HEIGHT INPUT_HEIGHT
 
 
 //!PARAMETER
+//!LABEL Target Gamma
 //!DEFAULT 2.2
-//!MIN 1e-5
+//!MIN 0.01
+//!MAX 5
+//!STEP 0.01
 float targetGamma;
 
 //!PARAMETER
+//!LABEL Monitor Gamma
 //!DEFAULT 2.2
-//!MIN 1e-5
+//!MIN 0.01
+//!MAX 5
+//!STEP 0.01
 float monitorGamma;
 
 //!PARAMETER
+//!LABEL Saturation
 //!DEFAULT 1
 //!MIN 0
+//!MAX 5
+//!STEP 0.01
 float saturation;
 
 //!PARAMETER
+//!LABEL Luminance
 //!DEFAULT 1
 //!MIN 0
+//!MAX 2
+//!STEP 0.01
 float luminance;
 
 //!PARAMETER
+//!LABEL Contrast
 //!DEFAULT 1
 //!MIN 0
+//!MAX 10
+//!STEP 0.1
 float contrast;
 
 //!PARAMETER
+//!LABEL Brightness Boost
 //!DEFAULT 0
 //!MIN -1
 //!MAX 1
+//!STEP 0.01
 float brightBoost;
 
 //!PARAMETER
+//!LABEL Black Level
 //!DEFAULT 0
 //!MIN -1
 //!MAX 1
+//!STEP 0.01
 float blackLevel;
 
 //!PARAMETER
+//!LABEL Red Channel
 //!DEFAULT 1
 //!MIN 0
+//!MAX 2
+//!STEP 0.01
 float r;
 
 //!PARAMETER
+//!LABEL Green Channel
 //!DEFAULT 1
 //!MIN 0
+//!MAX 2
+//!STEP 0.01
 float g;
 
 //!PARAMETER
+//!LABEL Blue Channel
 //!DEFAULT 1
 //!MIN 0
+//!MAX 2
+//!STEP 0.01
 float b;
 
 //!TEXTURE
