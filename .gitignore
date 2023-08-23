@@ -8,10 +8,7 @@ nps/
 rats-search/
 RegistryWorkshop/
 *.log
-Calibre Portable/Calibre Library
-Calibre Portable/Calibre Settings/caches
-Calibre Portable/Calibre Settings/*.json
-Calibre Portable/Calibre Settings/viewer/annots
+Calibre Portable/
 CrystalDiskInfo/Smart
 CrystalDiskInfo/DiskInfo.ini
 Dism++/Config/Dism++.log
