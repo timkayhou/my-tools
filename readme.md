@@ -1,5 +1,6 @@
 # 工具
 
+- 卸载预装程序 10AppsManager
 - 弹窗广告拦截 adkiller
 - 本地网络扫描 Angry IP Scanner
 - 批量重命名 antrenamer
