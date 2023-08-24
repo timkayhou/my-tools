@@ -42,6 +42,7 @@
 - 制作U盘启动盘 rufus
 - 发送到菜单编辑 SendToEditor
 - 窗口调整 Sizer
+- 磁盘空间分析 spacesniffer
 - 自定义启动音效 StartupSoundChanger
 - Steam垃圾清理 SteamCleaner
 - 最小化到托盘 TrayIt!
