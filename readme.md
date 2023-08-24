@@ -4,6 +4,7 @@
 - 弹窗广告拦截 adkiller
 - 本地网络扫描 Angry IP Scanner
 - 批量重命名 antrenamer
+- 固态硬盘测速 AS SSD Benchmark
 - 启动项目管理 Autoruns
 - 将U盘或SD卡识别为硬盘 cfadisk
 - 右键菜单管理 ContextMenuManager
