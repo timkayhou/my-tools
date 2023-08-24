@@ -32,6 +32,7 @@
 - MP3文件切割 mp3DirectCut
 - U盘扩容检测 MyDiskTest
 - 单文件打包 NSIS
+- 电源检测 OCCT
 - Office部署 Office Tool Plus
 - 图片放大 PhotoZoom Pro
 - 进程资源管理 ProcessExplorer
