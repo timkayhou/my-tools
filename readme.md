@@ -46,6 +46,7 @@
 - Steam垃圾清理 SteamCleaner
 - 最小化到托盘 TrayIt!
 - 软件卸载 Uninstall Tool
+- 强行删除 unlocker
 - 窗口透明化 Vitrite
 - 传统右键菜单 W11ClassicMenu
 - Win11菜单优化 Win11EasySettings
