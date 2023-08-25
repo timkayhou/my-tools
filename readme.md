@@ -15,6 +15,7 @@
 - 数据恢复及分区管理 DiskGenius
 - 系统优化 Dism++
 - 驱动器图标修改 DriveIconChanger
+- 窗口化 DxWnd
 - 系统服务优化 easyservice
 - 文件搜索 Everything
 - 时钟屏保 Fliqlo
