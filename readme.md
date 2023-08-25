@@ -25,6 +25,7 @@
 - KMS激活 KMS_VL_ALL
 - 文件传输 LANDrop
 - 日文转码 LocaleEmulator
+- 窗口缩放 Lossless Scaling
 - 窗口缩放 Magpie
 - Windows安装 MediaCreationTool
 - 实时机翻 MisakaTranslator
