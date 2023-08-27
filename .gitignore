@@ -11,3 +11,6 @@ RegistryWorkshop/RegWorkshop.ini
 RegistryWorkshop/undo.dat
 RegistryWorkshop/undo.idx
 RegSeeker/history.txt
+Everything/*.db
+Everything/*.ini
+Everything/*.csv
