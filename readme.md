@@ -29,6 +29,7 @@
 - 窗口缩放 Lossless Scaling
 - 窗口缩放 Magpie
 - Windows安装 MediaCreationTool
+- 注册系统服务 MicrosoftWindowsResourceKits > instsrv+srvany
 - 实时机翻 MisakaTranslator
 - 鼠标自动摇动 MouseJiggler
 - MP3文件切割 mp3DirectCut
