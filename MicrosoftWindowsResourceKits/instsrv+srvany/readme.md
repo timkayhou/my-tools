@@ -1,7 +1,7 @@
 # Creating Service from Executable
 
 - install
-instsrv ServiceName "C:\Program Files\sample.exe"
+Run install-service.bat as admin
 
 - uninstall
-instsrv ServiceName remove
+Run uninstall-service.bat as admin
