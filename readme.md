@@ -37,6 +37,7 @@
 - 单文件打包 NSIS
 - 电源检测 OCCT
 - Office部署 Office Tool Plus
+- Windows预览体验计划开启 offlineinsiderenroll
 - 图片放大 PhotoZoom Pro
 - 进程资源管理 ProcessExplorer
 - 序列号查询 ProduKey
