@@ -6,6 +6,7 @@
 !*.pdb
 cpuz.ini
 node_modules
+Oray
 CrystalDiskInfo/Smart
 RegistryWorkshop/RegWorkshop.ini
 RegistryWorkshop/undo.dat
