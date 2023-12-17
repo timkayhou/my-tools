@@ -19,6 +19,7 @@
 - 系统服务优化 easyservice
 - 文件搜索 Everything
 - 时钟屏保 Fliqlo
+- 显卡测试 FurMark
 - 隐藏电脑软件 Hide From Uninstall List
 - 火绒弹窗拦截 HuorongAd
 - 硬件检测 HWiNFO

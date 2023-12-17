@@ -1,0 +1,3 @@
+Renderer,Driver,MSAA,width,height,FPS,seconds,core_temp,core_temp_fahrenheit,core_vddc,core_load,gpu_power,core_clock,mem_clock,sys_mem_load,proc_mem_load,gpu_mem_load
+"NVIDIA GeForce RTX 2070","R511.23 (r511_04) / 30.0.15.1123 (1-10-2022)",0,1264,681,266,9.8,39.0,102.2,0.000,0.0,2.8,420.0,810.0,26,83906560,1089
+"NVIDIA GeForce GT 1030","R511.23 (r511_04) / 30.0.15.1123 (1-10-2022)",0,1264,681,266,9.8,43.0,109.4,0.000,0.0,0.0,1227.0,3003.0,26,83906560,-1
