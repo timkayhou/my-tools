@@ -53,6 +53,7 @@
 - 磁盘空间分析 spacesniffer
 - 自定义启动音效 StartupSoundChanger
 - Steam垃圾清理 SteamCleaner
+- Mac格式硬盘文件传输 TransMac
 - 最小化到托盘 TrayIt!
 - 软件卸载 Uninstall Tool
 - 强行删除 unlocker
